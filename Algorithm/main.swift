@@ -7,11 +7,11 @@
 
 import Foundation
 
-let _ = readLine()
+let bufferLine = readLine()
 
-if let buffer = bufferLine {
-    
-    //let bufferArr = buffer.split(separator: " ").map { Int($0) ?? 0 }
+if let bufferLine = bufferLine {
+
+    //let bufferArr = bufferLine.split(separator: " ").map { Int($0) ?? 0 }
 
     //DEBUG_LOG("value: \(value)")
 }
