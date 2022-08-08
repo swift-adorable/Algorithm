@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FF200E5028A12C610018E77A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E4F28A12C610018E77A /* main.swift */; };
 		FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E5628A12E770018E77A /* GreatestCommonDivisor.swift */; };
+		FFB2418728A1401B00CEDA34 /* Utilitys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB2418628A1401B00CEDA34 /* Utilitys.swift */; };
+		FFB2418928A140EB00CEDA34 /* LowestCommonMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB2418828A140EB00CEDA34 /* LowestCommonMultiple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		FF200E4C28A12C610018E77A /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF200E4F28A12C610018E77A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FF200E5628A12E770018E77A /* GreatestCommonDivisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestCommonDivisor.swift; sourceTree = "<group>"; };
+		FFB2418628A1401B00CEDA34 /* Utilitys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilitys.swift; sourceTree = "<group>"; };
+		FFB2418828A140EB00CEDA34 /* LowestCommonMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonMultiple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				FF200E5628A12E770018E77A /* GreatestCommonDivisor.swift */,
+				FFB2418828A140EB00CEDA34 /* LowestCommonMultiple.swift */,
 			);
 			path = Recursive;
 			sourceTree = "<group>";
@@ -77,6 +82,7 @@
 		FF200E5A28A12FEB0018E77A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FFB2418628A1401B00CEDA34 /* Utilitys.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB2418928A140EB00CEDA34 /* LowestCommonMultiple.swift in Sources */,
 				FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */,
+				FFB2418728A1401B00CEDA34 /* Utilitys.swift in Sources */,
 				FF200E5028A12C610018E77A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

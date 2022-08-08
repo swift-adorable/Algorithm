@@ -5,7 +5,7 @@
 //  Created by Picturesque on 2022/08/08.
 //
 
-import AppKit
+import Foundation
 
 class GreatestCommonDivisor {
     
@@ -13,7 +13,7 @@ class GreatestCommonDivisor {
         if n == 0 {
             return m
         }
-        
+        //DEBUG_LOG("getGCD: \(m%n)")
         return getGCD(m: n, n: m%n)
     }
     

@@ -7,11 +7,16 @@
 
 import Foundation
 
-let bufferLine = readLine()
+let _ = readLine()
 
 if let buffer = bufferLine {
     
-    let bufferArr = buffer.split(separator: " ").map { Int($0) ?? 0 }
-    let returnValue = GreatestCommonDivisor.getGCD(m: bufferArr[0], n: bufferArr[1])
-    print(returnValue)
+    //let bufferArr = buffer.split(separator: " ").map { Int($0) ?? 0 }
+
+    //DEBUG_LOG("value: \(value)")
 }
+
+//    //최대공약수
+//    let value = GreatestCommonDivisor.getGCD(m: bufferArr[0], n: bufferArr[1])
+//    //최소공배수
+//    let value = LowestCommonMultiple.getLCM(m: bufferArr[0], n: bufferArr[1])
