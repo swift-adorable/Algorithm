@@ -11,12 +11,23 @@ let bufferLine = readLine()
 
 if let bufferLine = bufferLine {
 
-    //let bufferArr = bufferLine.split(separator: " ").map { Int($0) ?? 0 }
+    let n = Int(bufferLine) ?? 3
+    var k = 1
 
-    //DEBUG_LOG("value: \(value)")
+    while true {
+        if n == Int(pow(3.0, Double(k))) { break }
+        k += 1
+    }
+
+    let arr: [[String]] = Array(repeating: Array(repeating: "", count: n), count: n)
+    let value = PrintingStar_BaekJoon2447.printStar(arr: arr, n: n, k: k, x: 0, y: 0)
+
+    value.forEach {
+        var str = ""
+        $0.forEach {
+            str += "\($0)"
+        }
+        DEBUG_LOG("\(str)")
+    }
 }
 
-//    //최대공약수
-//    let value = GreatestCommonDivisor.getGCD(m: bufferArr[0], n: bufferArr[1])
-//    //최소공배수
-//    let value = LowestCommonMultiple.getLCM(m: bufferArr[0], n: bufferArr[1])

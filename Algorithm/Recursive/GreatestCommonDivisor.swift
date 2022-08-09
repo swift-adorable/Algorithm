@@ -8,6 +8,9 @@
 import Foundation
 
 class GreatestCommonDivisor {
+
+//    //최대공약수
+//    let value = GreatestCommonDivisor.getGCD(m: bufferArr[0], n: bufferArr[1])
     
     static func getGCD(m: Int, n: Int) -> Int {
         if n == 0 {
