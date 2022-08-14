@@ -32,28 +32,26 @@ import Foundation
 //}
 //
 
-var bufReadLine: [String] = []
-
 while true {
     let readLine = readLine()
     if readLine == "0" {
+        print("")
         break
         
     } else  {
-        bufReadLine.append(readLine ?? "")
+        print("")
+        guard let bufArr = readLine?.components(separatedBy: " ") else { break }
+        //let k = Int(bufArr.first ?? "") ?? 0
+        let s: [String] = bufArr[1..<bufArr.count].map { String($0) }
+        
+        let instance = Lotto6603(s)
+        instance.lotto(idx: 0, depth: 0)
+        print("")
     }
 }
+/*
+7 1 2 3 4 5 6 7
+8 1 2 3 5 8 13 21 34
+0
+ */
 
-for buf in bufReadLine {
-    let bufArr = buf.components(separatedBy: " ")
-    let k = Int(bufArr.first ?? "") ?? 0
-    let s: [String] = bufArr[1..<bufArr.count].map { String($0) }
-    
-    print("k: \(k), s: \(s)")
-    
-    
-}
-
-func printLotto(k: Int, s: [String]) {
-    
-}
