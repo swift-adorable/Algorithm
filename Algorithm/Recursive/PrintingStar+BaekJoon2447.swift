@@ -27,14 +27,7 @@ class PrintingStar_BaekJoon2447 {
                 buf[x][y] = " "
                 return printStar(arr: buf, n: n, k: k, x: newX, y: newY)
             }
-            
-//            let divN3 = n / powI
-//            let divN3mul2 = divN3 * 2
-//
-//            if (divN3 <= x && x < divN3mul2) && (divN3 <= y && y < divN3mul2) {
-//                buf[x][y] = " "
-//                return printStar(arr: buf, n: n, k: k, x: newX, y: newY)
-//            }
+
         }
 
         buf[x][y] = "*"
