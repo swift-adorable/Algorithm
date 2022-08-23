@@ -23,7 +23,6 @@ if let input = input {
 }
 
 let size = 2 ^^ n
-
 let z = Z1074(size: size, r: r, c: c)
 
-print(z.getAnwser(x: 0, y: 0, size: size))
+z.getAnwser(x: 0, y: 0, size: size)

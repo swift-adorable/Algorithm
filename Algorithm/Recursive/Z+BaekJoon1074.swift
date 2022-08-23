@@ -21,93 +21,40 @@ class Z1074 {
         self.c = c
     }
     
-    func getAnwser(x: Int, y: Int, size: Int) -> Int {
-        
-        if size == 2 {
-            print(isPossibleZipped(x: x, y: y, size: size))
-            return isPossibleZipped(x: x, y: y, size: size)
+    func getAnwser(x: Int, y: Int, size: Int) {
+
+        if x == r && y == c {
+            print("\(resultValue)")
+            return
+        }
+
+        if (x <= r && r < x + size) && (y <= c && c < y + size) {
+            
+            let newSize = size / 2
+            
+            let xNS = x + newSize
+            let yNS = y + newSize
+            
+            getAnwser(x: x, y: y, size: newSize)
+            getAnwser(x: x, y: yNS, size: newSize)
+            getAnwser(x: xNS, y: y, size: newSize)
+            getAnwser(x: xNS, y: yNS, size: newSize)
+            
+        } else {
+            resultValue += size * size
         }
         
-        let newSize = size / 2
-        
-        let xNS = x + newSize
-        let yNS = y + newSize
-        
-        return getAnwser(x: x, y: y, size: newSize)
-        + getAnwser(x: x, y: yNS, size: newSize)
-        + getAnwser(x: xNS, y: y, size: newSize)
-        + getAnwser(x: xNS, y: yNS, size: newSize)
-        
-    }
-    
-    private func isPossibleZipped(x: Int, y: Int, size: Int) -> Int {
-        
-        for i in x ..< x+size {
-            for j in y ..< y+size {
-                if i == r && j == c {
-                    let perI = i % size
-                    let perJ = j % size
-                    if perI == 0 && perJ == 0 {
-                        return 0
-                    } else if perI == 0 && perJ == 1 {
-                        return 1
-                    } else if perI == 1 && perJ == 0 {
-                        return 2
-                    } else if perI == 1 && perJ == 1 {
-                        return 3
-                    }
-                }
-            }
-        }
-        
-        return 4
     }
     
 }
 
 /*
  
- var buf: [[String]] = []
- var size = 0
-
- let limitedReadLine = readLine()
-
- if let limitedReadLine = limitedReadLine,
-    let limited = Int(limitedReadLine) {
-     
-     size = limited
-     
-     for _ in 0 ..< limited {
-         
-         let readLine = readLine()
-         
-         guard let readLine = readLine else { break }
-
-         let s: [String] = readLine.map { String($0) }
-         
-         buf.append(s)
-     }
-     
- }
-
- let quadTree = QuadTree1992(buf)
-
- quadTree.getAnwser(x: 0, y: 0, size: size)
-
- quadTree.getResult()
-
-
  */
 
 /*
  Input
- 8
- 11110000
- 11110000
- 00011100
- 00011100
- 11110000
- 11110000
- 11110011
- 11110011
+ 2 3 1
+ 3 7 7
+ 4 7 7
  */
