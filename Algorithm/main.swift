@@ -7,31 +7,23 @@
 
 import Foundation
 
-var buf: [[String]] = []
-var size = 0
+var n: Int = 0
+var r: Int = 0
+var c: Int = 0
 
-let limitedReadLine = readLine()
+let input = readLine()
 
-if let limitedReadLine = limitedReadLine,
-   let limited = Int(limitedReadLine) {
+if let input = input {
     
-    size = limited
+    let bufArr = input.components(separatedBy: " ")
     
-    for _ in 0 ..< limited {
-        
-        let readLine = readLine()
-        
-        guard let readLine = readLine else { break }
-
-        let s: [String] = readLine.map { String($0) }
-        
-        buf.append(s)
-    }
-    
+    n = Int(bufArr[0]) ?? 0
+    r = Int(bufArr[1]) ?? 0
+    c = Int(bufArr[2]) ?? 0
 }
 
-let quadTree = QuadTree1992(buf)
+let size = 2 ^^ n
 
-quadTree.getAnwser(x: 0, y: 0, size: size)
+let z = Z1074(size: size, r: r, c: c)
 
-quadTree.getResult()
+print(z.getAnwser(x: 0, y: 0, size: size))

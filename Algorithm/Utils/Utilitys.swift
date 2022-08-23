@@ -15,3 +15,9 @@ func DEBUG_LOG(_ msg: Any, file: String = #file, function: String = #function, l
         print("[\(fileName)] \(funcName)(\(line)): \(msg)")
     #endif
 }
+
+precedencegroup PowerPrecedence { higherThan: MultiplicationPrecedence }
+infix operator ^^ : PowerPrecedence
+func ^^ (radix: Int, power: Int) -> Int {
+    return Int(pow(Double(radix), Double(power)))
+}
