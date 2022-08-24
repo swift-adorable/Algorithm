@@ -7,22 +7,55 @@
 
 import Foundation
 
-var n: Int = 0
-var r: Int = 0
-var c: Int = 0
+var buf: [[String]] = []
+var size = 0
 
-let input = readLine()
+let limitedReadLine = readLine()
 
-if let input = input {
+if let limited = limitedReadLine,
+   let limitedLine = Int(limited) {
     
-    let bufArr = input.components(separatedBy: " ")
+    size = limitedLine
     
-    n = Int(bufArr[0]) ?? 0
-    r = Int(bufArr[1]) ?? 0
-    c = Int(bufArr[2]) ?? 0
+    for _ in 0 ..< limitedLine {
+        
+        let readLine = readLine()
+        
+        guard let readLine = readLine?.components(separatedBy: " ") else { break }
+
+        buf.append(readLine)
+    }
+    
 }
 
-let size = 2 ^^ n
-let z = Z1074(size: size, r: r, c: c)
+let makeConfetti = MakeConfetti2630(buf)
 
-z.getAnwser(x: 0, y: 0, size: size)
+makeConfetti.solution(x: 0, y: 0, size: size)
+
+makeConfetti.getAnwser()
+
+/*
+case 1:
+ 
+8
+1 1 0 0 0 0 1 1
+1 1 0 0 0 0 1 1
+0 0 0 0 1 1 0 0
+0 0 0 0 1 1 0 0
+1 0 0 0 1 1 1 1
+0 1 0 0 1 1 1 1
+0 0 1 1 1 1 1 1
+0 0 1 1 1 1 1 1
+ 
+case 2:
+ 
+8
+1 1 1 1 0 0 1 1
+1 1 1 1 0 0 1 1
+0 0 0 0 1 1 0 0
+0 0 0 0 1 1 0 0
+1 1 1 1 0 0 0 0
+1 1 1 1 0 0 0 0
+1 1 1 1 0 0 1 1
+1 1 1 1 0 0 1 1
+ */

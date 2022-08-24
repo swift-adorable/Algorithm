@@ -21,7 +21,7 @@ class Z1074 {
         self.c = c
     }
     
-    func getAnwser(x: Int, y: Int, size: Int) {
+    func solution(x: Int, y: Int, size: Int) {
 
         if x == r && y == c {
             print("\(resultValue)")
@@ -35,10 +35,10 @@ class Z1074 {
             let xNS = x + newSize
             let yNS = y + newSize
             
-            getAnwser(x: x, y: y, size: newSize)
-            getAnwser(x: x, y: yNS, size: newSize)
-            getAnwser(x: xNS, y: y, size: newSize)
-            getAnwser(x: xNS, y: yNS, size: newSize)
+            solution(x: x, y: y, size: newSize)
+            solution(x: x, y: yNS, size: newSize)
+            solution(x: xNS, y: y, size: newSize)
+            solution(x: xNS, y: yNS, size: newSize)
             
         } else {
             resultValue += size * size
@@ -50,11 +50,33 @@ class Z1074 {
 
 /*
  
+ var n: Int = 0
+ var r: Int = 0
+ var c: Int = 0
+
+ let input = readLine()
+
+ if let input = input {
+     
+     let bufArr = input.components(separatedBy: " ")
+     
+     n = Int(bufArr[0]) ?? 0
+     r = Int(bufArr[1]) ?? 0
+     c = Int(bufArr[2]) ?? 0
+ }
+
+ let size = 2 ^^ n
+ let z = Z1074(size: size, r: r, c: c)
+
+ z.solution(x: 0, y: 0, size: size)
+
  */
 
 /*
  Input
- 2 3 1
- 3 7 7
- 4 7 7
+ case 1: 2 3 1
+ 
+ case 2: 3 7 7
+ 
+ case 3: 4 7 7
  */
