@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D01C83E828B4B95B0059B2D7 /* Z+BaekJoon1074.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C83E728B4B95B0059B2D7 /* Z+BaekJoon1074.swift */; };
+		D0250D4828BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0250D4728BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift */; };
 		D02C957C28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C957B28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift */; };
 		D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */; };
 		D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		D01C83E728B4B95B0059B2D7 /* Z+BaekJoon1074.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Z+BaekJoon1074.swift"; sourceTree = "<group>"; };
+		D0250D4728BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumOfPaper+BaekJoon1780.swift"; sourceTree = "<group>"; };
 		D02C957B28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MakeConfetti+BaekJoon2630.swift"; sourceTree = "<group>"; };
 		D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuadTree+BaekJoon1992.swift"; sourceTree = "<group>"; };
 		D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lotto+BaekJoon6603.swift"; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */,
 				D01C83E728B4B95B0059B2D7 /* Z+BaekJoon1074.swift */,
 				D02C957B28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift */,
+				D0250D4728BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift */,
 			);
 			path = Recursive;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFB2418928A140EB00CEDA34 /* LowestCommonMultiple.swift in Sources */,
+				D0250D4828BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift in Sources */,
 				D01C83E828B4B95B0059B2D7 /* Z+BaekJoon1074.swift in Sources */,
 				FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */,
 				D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */,

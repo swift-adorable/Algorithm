@@ -7,55 +7,33 @@
 
 import Foundation
 
-var buf: [[String]] = []
+var buf: [[Int]] = []
 var size = 0
 
 let limitedReadLine = readLine()
 
 if let limited = limitedReadLine,
-   let limitedLine = Int(limited) {
-    
+let limitedLine = Int(limited) {
+ 
     size = limitedLine
-    
+
     for _ in 0 ..< limitedLine {
-        
+     
         let readLine = readLine()
-        
+
         guard let readLine = readLine?.components(separatedBy: " ") else { break }
 
-        buf.append(readLine)
+        let toIntArr = readLine.map { Int($0) ?? 0 }
+
+        buf.append(toIntArr)
     }
-    
+ 
 }
 
-let makeConfetti = MakeConfetti2630(buf)
+//buf.forEach { print($0) }
 
-makeConfetti.solution(x: 0, y: 0, size: size)
+let numOfPaper = NumOfPaper1780(buf)
 
-makeConfetti.getAnwser()
+numOfPaper.solution(x: 0, y: 0, size: size)
 
-/*
-case 1:
- 
-8
-1 1 0 0 0 0 1 1
-1 1 0 0 0 0 1 1
-0 0 0 0 1 1 0 0
-0 0 0 0 1 1 0 0
-1 0 0 0 1 1 1 1
-0 1 0 0 1 1 1 1
-0 0 1 1 1 1 1 1
-0 0 1 1 1 1 1 1
- 
-case 2:
- 
-8
-1 1 1 1 0 0 1 1
-1 1 1 1 0 0 1 1
-0 0 0 0 1 1 0 0
-0 0 0 0 1 1 0 0
-1 1 1 1 0 0 0 0
-1 1 1 1 0 0 0 0
-1 1 1 1 0 0 1 1
-1 1 1 1 0 0 1 1
- */
+numOfPaper.getAnwser()
