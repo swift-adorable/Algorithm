@@ -13,27 +13,10 @@ var size = 0
 let limitedReadLine = readLine()
 
 if let limited = limitedReadLine,
-let limitedLine = Int(limited) {
+let limit = Int(limited) {
  
-    size = limitedLine
-
-    for _ in 0 ..< limitedLine {
-     
-        let readLine = readLine()
-
-        guard let readLine = readLine?.components(separatedBy: " ") else { break }
-
-        let toIntArr = readLine.map { Int($0) ?? 0 }
-
-        buf.append(toIntArr)
-    }
+    let whatsRecursive = WhatIsRecursive17478(limit)
+    
+    whatsRecursive.solution(n: limit)
  
 }
-
-//buf.forEach { print($0) }
-
-let numOfPaper = NumOfPaper1780(buf)
-
-numOfPaper.solution(x: 0, y: 0, size: size)
-
-numOfPaper.getAnwser()
