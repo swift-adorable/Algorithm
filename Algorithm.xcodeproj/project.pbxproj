@@ -13,6 +13,7 @@
 		D02739CC28BEE22C00C2C8C0 /* FileIO+byRhino.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02739CB28BEE22C00C2C8C0 /* FileIO+byRhino.swift */; };
 		D02C957C28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C957B28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift */; };
 		D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */; };
+		D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */; };
 		D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */; };
 		FF200E5028A12C610018E77A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E4F28A12C610018E77A /* main.swift */; };
 		FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E5628A12E770018E77A /* GreatestCommonDivisor.swift */; };
@@ -40,6 +41,7 @@
 		D02739CB28BEE22C00C2C8C0 /* FileIO+byRhino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileIO+byRhino.swift"; sourceTree = "<group>"; };
 		D02C957B28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MakeConfetti+BaekJoon2630.swift"; sourceTree = "<group>"; };
 		D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuadTree+BaekJoon1992.swift"; sourceTree = "<group>"; };
+		D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrdinaryKnapsack+BJ12865.swift"; sourceTree = "<group>"; };
 		D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lotto+BaekJoon6603.swift"; sourceTree = "<group>"; };
 		FF200E4C28A12C610018E77A /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF200E4F28A12C610018E77A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0B13F2B28C5D7550012DD19 /* Dynamic Programming */ = {
+			isa = PBXGroup;
+			children = (
+				D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */,
+			);
+			path = "Dynamic Programming";
+			sourceTree = "<group>";
+		};
 		FF200E4328A12C610018E77A = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +92,7 @@
 				FF200E5A28A12FEB0018E77A /* Utils */,
 				FF200E4F28A12C610018E77A /* main.swift */,
 				FF200E5928A12FB30018E77A /* Recursive */,
+				D0B13F2B28C5D7550012DD19 /* Dynamic Programming */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -175,6 +186,7 @@
 				FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */,
 				D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */,
 				D02739CC28BEE22C00C2C8C0 /* FileIO+byRhino.swift in Sources */,
+				D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */,
 				D0250D4A28BCB61D00CD81D9 /* WhatIsRecursive+BaekJoon17478.swift in Sources */,
 				FFB2418728A1401B00CEDA34 /* Utilitys.swift in Sources */,
 				FF86FDDE28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift in Sources */,

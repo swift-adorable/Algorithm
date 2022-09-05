@@ -17,7 +17,7 @@ class MakeConfetti2630 {
     init(_ confetti: [[String]]) {
         self.confetti = confetti
     }
-    
+    //4180 0302 7289 9283
     func solution(x: Int, y: Int, size: Int) {
         
         if isPossibleCutOut(x: x, y: y, size: size) {
