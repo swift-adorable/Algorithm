@@ -19,8 +19,11 @@
 		FF200E5028A12C610018E77A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E4F28A12C610018E77A /* main.swift */; };
 		FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E5628A12E770018E77A /* GreatestCommonDivisor.swift */; };
 		FF86FDDE28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86FDDD28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift */; };
+		FF8B42E328D49D0A00840DA0 /* Budget+KI2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B42E228D49D0A00840DA0 /* Budget+KI2022.swift */; };
+		FF8B42E628D49D7600840DA0 /* PersonalTypeTest+SW2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B42E528D49D7600840DA0 /* PersonalTypeTest+SW2018.swift */; };
 		FFB2418728A1401B00CEDA34 /* Utilitys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB2418628A1401B00CEDA34 /* Utilitys.swift */; };
 		FFB2418928A140EB00CEDA34 /* LowestCommonMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB2418828A140EB00CEDA34 /* LowestCommonMultiple.swift */; };
+		FFEAD7BE28D1675700DA5DD3 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEAD7BD28D1675700DA5DD3 /* BinaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,8 +52,11 @@
 		FF200E4F28A12C610018E77A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FF200E5628A12E770018E77A /* GreatestCommonDivisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestCommonDivisor.swift; sourceTree = "<group>"; };
 		FF86FDDD28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrintingStar+BaekJoon2447.swift"; sourceTree = "<group>"; };
+		FF8B42E228D49D0A00840DA0 /* Budget+KI2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Budget+KI2022.swift"; sourceTree = "<group>"; };
+		FF8B42E528D49D7600840DA0 /* PersonalTypeTest+SW2018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonalTypeTest+SW2018.swift"; sourceTree = "<group>"; };
 		FFB2418628A1401B00CEDA34 /* Utilitys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilitys.swift; sourceTree = "<group>"; };
 		FFB2418828A140EB00CEDA34 /* LowestCommonMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonMultiple.swift; sourceTree = "<group>"; };
+		FFEAD7BD28D1675700DA5DD3 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 		D02AEE3E28C81886002A5077 /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				FFEAD7BD28D1675700DA5DD3 /* BinaryTree.swift */,
 				D02AEE3F28C818AB002A5077 /* Heap.swift */,
 			);
 			path = DataStructure;
@@ -83,6 +90,7 @@
 		FF200E4328A12C610018E77A = {
 			isa = PBXGroup;
 			children = (
+				D02AEE3E28C81886002A5077 /* DataStructure */,
 				FF200E4E28A12C610018E77A /* Algorithm */,
 				FF200E4D28A12C610018E77A /* Products */,
 			);
@@ -99,7 +107,7 @@
 		FF200E4E28A12C610018E77A /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				D02AEE3E28C81886002A5077 /* DataStructure */,
+				FF8B42E128D49CB100840DA0 /* Programmers */,
 				FF200E5A28A12FEB0018E77A /* Utils */,
 				FF200E4F28A12C610018E77A /* main.swift */,
 				FF200E5928A12FB30018E77A /* Recursive */,
@@ -131,6 +139,31 @@
 				D02739CB28BEE22C00C2C8C0 /* FileIO+byRhino.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		FF8B42E028D49C9A00840DA0 /* Kakao Internship 2022 */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B42E228D49D0A00840DA0 /* Budget+KI2022.swift */,
+			);
+			path = "Kakao Internship 2022";
+			sourceTree = "<group>";
+		};
+		FF8B42E128D49CB100840DA0 /* Programmers */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B42E428D49D1000840DA0 /* Summer Winter ~2018 */,
+				FF8B42E028D49C9A00840DA0 /* Kakao Internship 2022 */,
+			);
+			path = Programmers;
+			sourceTree = "<group>";
+		};
+		FF8B42E428D49D1000840DA0 /* Summer Winter ~2018 */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B42E528D49D7600840DA0 /* PersonalTypeTest+SW2018.swift */,
+			);
+			path = "Summer Winter ~2018";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,17 +226,20 @@
 			files = (
 				FFB2418928A140EB00CEDA34 /* LowestCommonMultiple.swift in Sources */,
 				D0250D4828BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift in Sources */,
+				FFEAD7BE28D1675700DA5DD3 /* BinaryTree.swift in Sources */,
 				D01C83E828B4B95B0059B2D7 /* Z+BaekJoon1074.swift in Sources */,
 				FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */,
 				D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */,
 				D02739CC28BEE22C00C2C8C0 /* FileIO+byRhino.swift in Sources */,
 				D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */,
+				FF8B42E628D49D7600840DA0 /* PersonalTypeTest+SW2018.swift in Sources */,
 				D0250D4A28BCB61D00CD81D9 /* WhatIsRecursive+BaekJoon17478.swift in Sources */,
 				FFB2418728A1401B00CEDA34 /* Utilitys.swift in Sources */,
 				FF86FDDE28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift in Sources */,
 				FF200E5028A12C610018E77A /* main.swift in Sources */,
 				D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */,
 				D02C957C28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift in Sources */,
+				FF8B42E328D49D0A00840DA0 /* Budget+KI2022.swift in Sources */,
 				D02AEE4028C818AB002A5077 /* Heap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +365,7 @@
 		FF200E5428A12C610018E77A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QMB27NV87J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -340,10 +377,12 @@
 		FF200E5528A12C610018E77A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RXKN8TB52G;
+				DEVELOPMENT_TEAM = QMB27NV87J;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
