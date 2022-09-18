@@ -19,9 +19,13 @@
 		FF200E5028A12C610018E77A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E4F28A12C610018E77A /* main.swift */; };
 		FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E5628A12E770018E77A /* GreatestCommonDivisor.swift */; };
 		FF765E8228D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF765E8128D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift */; };
+		FF765E8428D5BB9D003C06DA /* DeterminigHikingCourse+KI2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF765E8328D5BB9D003C06DA /* DeterminigHikingCourse+KI2022.swift */; };
 		FF86FDDE28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF86FDDD28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift */; };
 		FF8B42E328D49D0A00840DA0 /* Budget+KI2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B42E228D49D0A00840DA0 /* Budget+KI2022.swift */; };
 		FF8B42E628D49D7600840DA0 /* PersonalTypeTest+SW2018.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B42E528D49D7600840DA0 /* PersonalTypeTest+SW2018.swift */; };
+		FFA8C97E28D5CCE700396367 /* TwoDimensionArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA8C97D28D5CCE700396367 /* TwoDimensionArray.swift */; };
+		FFA8C98028D6CA8D00396367 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA8C97F28D6CA8D00396367 /* PriorityQueue.swift */; };
+		FFA8C98228D7669600396367 /* StudyCodingTest+KI2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA8C98128D7669600396367 /* StudyCodingTest+KI2022.swift */; };
 		FFB2418728A1401B00CEDA34 /* Utilitys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB2418628A1401B00CEDA34 /* Utilitys.swift */; };
 		FFB2418928A140EB00CEDA34 /* LowestCommonMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB2418828A140EB00CEDA34 /* LowestCommonMultiple.swift */; };
 		FFEAD7BE28D1675700DA5DD3 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEAD7BD28D1675700DA5DD3 /* BinaryTree.swift */; };
@@ -53,9 +57,13 @@
 		FF200E4F28A12C610018E77A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FF200E5628A12E770018E77A /* GreatestCommonDivisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestCommonDivisor.swift; sourceTree = "<group>"; };
 		FF765E8128D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MakeTwoQueueSumEqual+KI2022.swift"; sourceTree = "<group>"; };
+		FF765E8328D5BB9D003C06DA /* DeterminigHikingCourse+KI2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeterminigHikingCourse+KI2022.swift"; sourceTree = "<group>"; };
 		FF86FDDD28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrintingStar+BaekJoon2447.swift"; sourceTree = "<group>"; };
 		FF8B42E228D49D0A00840DA0 /* Budget+KI2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Budget+KI2022.swift"; sourceTree = "<group>"; };
 		FF8B42E528D49D7600840DA0 /* PersonalTypeTest+SW2018.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonalTypeTest+SW2018.swift"; sourceTree = "<group>"; };
+		FFA8C97D28D5CCE700396367 /* TwoDimensionArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDimensionArray.swift; sourceTree = "<group>"; };
+		FFA8C97F28D6CA8D00396367 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		FFA8C98128D7669600396367 /* StudyCodingTest+KI2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudyCodingTest+KI2022.swift"; sourceTree = "<group>"; };
 		FFB2418628A1401B00CEDA34 /* Utilitys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilitys.swift; sourceTree = "<group>"; };
 		FFB2418828A140EB00CEDA34 /* LowestCommonMultiple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonMultiple.swift; sourceTree = "<group>"; };
 		FFEAD7BD28D1675700DA5DD3 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
@@ -77,6 +85,7 @@
 			children = (
 				FFEAD7BD28D1675700DA5DD3 /* BinaryTree.swift */,
 				D02AEE3F28C818AB002A5077 /* Heap.swift */,
+				FFA8C97F28D6CA8D00396367 /* PriorityQueue.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -92,6 +101,8 @@
 		FF200E4328A12C610018E77A = {
 			isa = PBXGroup;
 			children = (
+				FFA8C97C28D5CCD300396367 /* Extensions */,
+				FF200E5A28A12FEB0018E77A /* Utils */,
 				D02AEE3E28C81886002A5077 /* DataStructure */,
 				FF200E4E28A12C610018E77A /* Algorithm */,
 				FF200E4D28A12C610018E77A /* Products */,
@@ -110,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				FF8B42E128D49CB100840DA0 /* Programmers */,
-				FF200E5A28A12FEB0018E77A /* Utils */,
 				FF200E4F28A12C610018E77A /* main.swift */,
 				FF200E5928A12FB30018E77A /* Recursive */,
 				D0B13F2B28C5D7550012DD19 /* Dynamic Programming */,
@@ -137,6 +147,7 @@
 		FF200E5A28A12FEB0018E77A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FFA8C97D28D5CCE700396367 /* TwoDimensionArray.swift */,
 				FFB2418628A1401B00CEDA34 /* Utilitys.swift */,
 				D02739CB28BEE22C00C2C8C0 /* FileIO+byRhino.swift */,
 			);
@@ -148,6 +159,8 @@
 			children = (
 				FF8B42E228D49D0A00840DA0 /* Budget+KI2022.swift */,
 				FF765E8128D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift */,
+				FF765E8328D5BB9D003C06DA /* DeterminigHikingCourse+KI2022.swift */,
+				FFA8C98128D7669600396367 /* StudyCodingTest+KI2022.swift */,
 			);
 			path = "Kakao Internship 2022";
 			sourceTree = "<group>";
@@ -167,6 +180,13 @@
 				FF8B42E528D49D7600840DA0 /* PersonalTypeTest+SW2018.swift */,
 			);
 			path = "Summer Winter ~2018";
+			sourceTree = "<group>";
+		};
+		FFA8C97C28D5CCD300396367 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +252,13 @@
 				FFEAD7BE28D1675700DA5DD3 /* BinaryTree.swift in Sources */,
 				D01C83E828B4B95B0059B2D7 /* Z+BaekJoon1074.swift in Sources */,
 				FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */,
+				FFA8C98028D6CA8D00396367 /* PriorityQueue.swift in Sources */,
 				D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */,
 				D02739CC28BEE22C00C2C8C0 /* FileIO+byRhino.swift in Sources */,
 				D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */,
+				FFA8C97E28D5CCE700396367 /* TwoDimensionArray.swift in Sources */,
 				FF8B42E628D49D7600840DA0 /* PersonalTypeTest+SW2018.swift in Sources */,
+				FF765E8428D5BB9D003C06DA /* DeterminigHikingCourse+KI2022.swift in Sources */,
 				D0250D4A28BCB61D00CD81D9 /* WhatIsRecursive+BaekJoon17478.swift in Sources */,
 				FFB2418728A1401B00CEDA34 /* Utilitys.swift in Sources */,
 				FF86FDDE28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift in Sources */,
@@ -245,6 +268,7 @@
 				FF765E8228D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift in Sources */,
 				FF8B42E328D49D0A00840DA0 /* Budget+KI2022.swift in Sources */,
 				D02AEE4028C818AB002A5077 /* Heap.swift in Sources */,
+				FFA8C98228D7669600396367 /* StudyCodingTest+KI2022.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

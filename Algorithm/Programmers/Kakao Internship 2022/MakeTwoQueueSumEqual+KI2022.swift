@@ -61,6 +61,7 @@ func solution(_ queue1:[Int], _ queue2:[Int]) -> Int {
 
 //MARK: Second 통과
 /*
+ First 의 문제를 해결하기 위해 두 큐를 합쳐 배열의 푸시, 팝을 하지 않고 포인터 개념 활용.
  while 문이 끝나고도 목표 값과 한쪽 큐의 합이 같지 않을 경우의 조건 때문에 테스트 케이스 11, 28번 실패
  if targetValue != sumQ1 { return -1 } 추가
  */
