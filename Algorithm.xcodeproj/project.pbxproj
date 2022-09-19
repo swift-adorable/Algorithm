@@ -90,6 +90,13 @@
 			path = DataStructure;
 			sourceTree = "<group>";
 		};
+		D074855428D8041E00E60024 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D0B13F2B28C5D7550012DD19 /* Dynamic Programming */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +108,7 @@
 		FF200E4328A12C610018E77A = {
 			isa = PBXGroup;
 			children = (
-				FFA8C97C28D5CCD300396367 /* Extensions */,
+				D074855428D8041E00E60024 /* Extensions */,
 				FF200E5A28A12FEB0018E77A /* Utils */,
 				D02AEE3E28C81886002A5077 /* DataStructure */,
 				FF200E4E28A12C610018E77A /* Algorithm */,
@@ -180,13 +187,6 @@
 				FF8B42E528D49D7600840DA0 /* PersonalTypeTest+SW2018.swift */,
 			);
 			path = "Summer Winter ~2018";
-			sourceTree = "<group>";
-		};
-		FFA8C97C28D5CCD300396367 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
