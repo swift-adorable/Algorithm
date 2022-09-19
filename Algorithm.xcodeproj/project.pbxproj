@@ -10,6 +10,7 @@
 		D01C83E828B4B95B0059B2D7 /* Z+BaekJoon1074.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01C83E728B4B95B0059B2D7 /* Z+BaekJoon1074.swift */; };
 		D0250D4828BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0250D4728BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift */; };
 		D0250D4A28BCB61D00CD81D9 /* WhatIsRecursive+BaekJoon17478.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0250D4928BCB61D00CD81D9 /* WhatIsRecursive+BaekJoon17478.swift */; };
+		D025238728D843C7002FE508 /* ReceiveReportResult+KI2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025238628D843C7002FE508 /* ReceiveReportResult+KI2022.swift */; };
 		D02739CC28BEE22C00C2C8C0 /* FileIO+byRhino.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02739CB28BEE22C00C2C8C0 /* FileIO+byRhino.swift */; };
 		D02AEE4028C818AB002A5077 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AEE3F28C818AB002A5077 /* Heap.swift */; };
 		D02C957C28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C957B28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift */; };
@@ -47,6 +48,7 @@
 		D01C83E728B4B95B0059B2D7 /* Z+BaekJoon1074.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Z+BaekJoon1074.swift"; sourceTree = "<group>"; };
 		D0250D4728BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumOfPaper+BaekJoon1780.swift"; sourceTree = "<group>"; };
 		D0250D4928BCB61D00CD81D9 /* WhatIsRecursive+BaekJoon17478.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WhatIsRecursive+BaekJoon17478.swift"; sourceTree = "<group>"; };
+		D025238628D843C7002FE508 /* ReceiveReportResult+KI2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReceiveReportResult+KI2022.swift"; sourceTree = "<group>"; };
 		D02739CB28BEE22C00C2C8C0 /* FileIO+byRhino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileIO+byRhino.swift"; sourceTree = "<group>"; };
 		D02AEE3F28C818AB002A5077 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		D02C957B28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MakeConfetti+BaekJoon2630.swift"; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				FF765E8128D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift */,
 				FF765E8328D5BB9D003C06DA /* DeterminigHikingCourse+KI2022.swift */,
 				FFA8C98128D7669600396367 /* StudyCodingTest+KI2022.swift */,
+				D025238628D843C7002FE508 /* ReceiveReportResult+KI2022.swift */,
 			);
 			path = "Kakao Internship 2022";
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			files = (
 				FFB2418928A140EB00CEDA34 /* LowestCommonMultiple.swift in Sources */,
 				D0250D4828BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift in Sources */,
+				D025238728D843C7002FE508 /* ReceiveReportResult+KI2022.swift in Sources */,
 				FFEAD7BE28D1675700DA5DD3 /* BinaryTree.swift in Sources */,
 				D01C83E828B4B95B0059B2D7 /* Z+BaekJoon1074.swift in Sources */,
 				FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */,

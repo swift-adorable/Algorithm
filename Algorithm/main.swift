@@ -7,64 +7,69 @@
 
 import Foundation
 
-func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
-    //[신고자: [신고 당한 자]]
-    var dict: [String: [String]] = [:]
-    //[신고 당한 자: 신고 당한 횟수]
-    var reportedCount: [String: Int] = [:]
-
-    for r in report {
-        let split = r.split(separator: " ").map { String($0) }
-
-        let whoReporeted = split[0] //신고 한 사람
-        let reportedPerson = split[1] //신고 당한 사람
-
-        if dict[whoReporeted] == nil {
-            dict.updateValue([reportedPerson], forKey: whoReporeted)
-
-        } else if !(dict[whoReporeted]?.contains(reportedPerson) ?? true) {
-            dict[whoReporeted]?.append(reportedPerson)
-        }
-    }
-    
-    dict.forEach {
-        $0.value.forEach {
-            if reportedCount[$0] == nil {
-                reportedCount[$0] = 1
-            } else {
-                reportedCount[$0]! += 1
-            }
-        }
-    }
-    
-    var answer: [Int] = [Int](repeating: 0, count: id_list.count)
-    
-    for i in 0 ..< id_list.count {
-        let id = id_list[i]
-        
-        dict[id]?.forEach {
-            if (reportedCount[$0] ?? 0) >= k {
-                answer[i] += 1
-            }
-        }
-
-    }
-    
-    return answer
+/*
+ 만약, k(k는 1~10사이의 자연수)점을 어피치가 a발을 맞혔고 라이언이 b발을 맞혔을 경우 더 많은 화살을 k점에 맞힌 선수가 k 점을 가져갑니다.
+ 단, a = b일 경우는 어피치가 k점을 가져갑니다.
+ 라이언이 가장 큰 점수 차이로 우승할 수 있는 방법이 여러 가지 일 경우, 가장 낮은 점수를 더 많이 맞힌 경우를 return 해주세요.
+ 해당 점수를 얻을 것이라면 어피치가 맞춘 갯수보다 한 발을 더 맞추면 되고, 그렇지 않다면 아예 쏘지 않는 것이 최적
+ */
+func solution(_ n:Int, _ info:[Int]) -> [Int] {
+//    print("apeach: \(info)")
+//    var apeachScoreSum = 0
+//    
+//    info.enumerated().forEach { (idx, shot) in
+//        let score = 10 - idx
+//        if shot > 0 { apeachScoreSum += score }
+//    }
+//    
+//    print("apeachScoreSum: \(apeachScoreSum)")
+//    var lion = [Int](repeating: 0, count: 11)
+//    lion[10] = n
+//    print(lion)
+//    var pt = 10
+//    var pt2 = 10
+//    while lion[0] != n || pt < 0 {
+//        
+//        if getScore(lion) > apeachScoreSum {
+//            return lion
+//        }
+//        
+//        while lion[pt]-1 > 0 {
+//            lion[pt] -= 1
+//            
+//            while pt2-1 > 0 {
+//                pt2 -= 1
+//                if pt == pt2 {
+//                    lion[pt2] += 1
+//                } else {
+//                    if pt2 != 0 {
+//                        lion[pt2] += 1
+//                        lion[pt2+1] -= 1
+//                    }
+//                }
+//                print(lion)
+//            }
+//        }
+//        
+//        pt -= 1
+//        
+//    }
+//    
+    return [-1]//lionScore.reduce(0, +) > apeachScoreSum ? lionScore : [-1]
 }
 
+func getScore(_ lion: [Int]) -> Int {
+    var score = 0
+    
+    lion.enumerated().forEach { (idx, shot) in
+        if shot > 0 { score += (10 - idx) }
+    }
+    
+    return score
+}
 
-let id_list = ["muzi", "frodo", "apeach", "neo"]
-let report = ["muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"]
-let k = 2
+let n = 5
+let info = [2,1,1,1,0,0,0,0,0,0,0]
+//result = [0,2,2,0,1,0,0,0,0,0,0]
 
-//answer = [2,1,1,0]
-
-//let id_list = ["con", "ryan"]
-//let report = ["ryan con", "ryan con", "ryan con", "ryan con"]
-//let k = 3
-//answer = [0,0]
-
-let answer = solution(id_list, report, k)
-
-print("answer: \(answer)")
+let answer = solution(n, info)
