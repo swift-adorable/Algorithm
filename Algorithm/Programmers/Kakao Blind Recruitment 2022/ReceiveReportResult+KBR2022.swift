@@ -1,5 +1,5 @@
 //
-//  ReceiveReportResult+KI2022.swift
+//  ReceiveReportResult+KBR2022.swift
 //  Algorithm
 //
 //  Created by 이정호 on 2022/09/19.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ReceiveReportResult_KI2022 {
+class ReceiveReportResult_KBR2022 {
     func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
         //[신고자: [신고 당한 자]]
         var dict: [String: [String]] = [:]
