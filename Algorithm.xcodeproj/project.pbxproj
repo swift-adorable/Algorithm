@@ -16,11 +16,14 @@
 		D02A131428DBE34E000742FF /* SheepAndWolf+KBR2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02A131328DBE34E000742FF /* SheepAndWolf+KBR2022.swift */; };
 		D02AEE4028C818AB002A5077 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AEE3F28C818AB002A5077 /* Heap.swift */; };
 		D02C957C28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C957B28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift */; };
+		D044099C2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = D044099B2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift */; };
 		D04620BC28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04620BB28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift */; };
 		D049087D28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = D049087C28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift */; };
 		D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */; };
 		D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */; };
 		D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */; };
+		D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */; };
+		D0FF8D0B2CB8B9040025DC8C /* LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */; };
 		FF200E5028A12C610018E77A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E4F28A12C610018E77A /* main.swift */; };
 		FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E5628A12E770018E77A /* GreatestCommonDivisor.swift */; };
 		FF765E8228D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF765E8128D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift */; };
@@ -59,11 +62,14 @@
 		D02A131328DBE34E000742FF /* SheepAndWolf+KBR2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SheepAndWolf+KBR2022.swift"; sourceTree = "<group>"; };
 		D02AEE3F28C818AB002A5077 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		D02C957B28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MakeConfetti+BaekJoon2630.swift"; sourceTree = "<group>"; };
+		D044099B2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1592. Rearrange Spaces Between Words.swift"; sourceTree = "<group>"; };
 		D04620BB28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalculateParkingFee+KBR2022.swift"; sourceTree = "<group>"; };
 		D049087C28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GetPrimeNoInKdecimal+KBR2022.swift"; sourceTree = "<group>"; };
 		D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuadTree+BaekJoon1992.swift"; sourceTree = "<group>"; };
 		D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrdinaryKnapsack+BJ12865.swift"; sourceTree = "<group>"; };
 		D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lotto+BaekJoon6603.swift"; sourceTree = "<group>"; };
+		D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
+		D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode.swift; sourceTree = "<group>"; };
 		FF200E4C28A12C610018E77A /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF200E4F28A12C610018E77A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FF200E5628A12E770018E77A /* GreatestCommonDivisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatestCommonDivisor.swift; sourceTree = "<group>"; };
@@ -117,6 +123,16 @@
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
 		};
+		D0FF8D072CB8B73E0025DC8C /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
+				D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */,
+				D044099B2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
 		FF200E4328A12C610018E77A = {
 			isa = PBXGroup;
 			children = (
@@ -139,8 +155,9 @@
 		FF200E4E28A12C610018E77A /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				FF8B42E128D49CB100840DA0 /* Programmers */,
 				FF200E4F28A12C610018E77A /* main.swift */,
+				D0FF8D072CB8B73E0025DC8C /* LeetCode */,
+				FF8B42E128D49CB100840DA0 /* Programmers */,
 				FF200E5928A12FB30018E77A /* Recursive */,
 				D0B13F2B28C5D7550012DD19 /* Dynamic Programming */,
 			);
@@ -279,8 +296,10 @@
 				FFEAD7BE28D1675700DA5DD3 /* BinaryTree.swift in Sources */,
 				D01C83E828B4B95B0059B2D7 /* Z+BaekJoon1074.swift in Sources */,
 				D02A131428DBE34E000742FF /* SheepAndWolf+KBR2022.swift in Sources */,
+				D044099C2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift in Sources */,
 				FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */,
 				FFA8C98028D6CA8D00396367 /* PriorityQueue.swift in Sources */,
+				D0FF8D0B2CB8B9040025DC8C /* LeetCode.swift in Sources */,
 				D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */,
 				D049087D28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift in Sources */,
 				D04620BC28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift in Sources */,
@@ -301,6 +320,7 @@
 				D02AEE4028C818AB002A5077 /* Heap.swift in Sources */,
 				FFA8C98228D7669600396367 /* StudyCodingTest+KI2022.swift in Sources */,
 				D02A131228DBDDB2000742FF /* IndestructibleBuilding+KBR2022.swift in Sources */,
+				D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
