@@ -7,7 +7,7 @@
 
 import Foundation
 
-let test = LeetCode.RearrangeSpacesBetweenWords()
-let value = test.reorderSpaces("  hello")
+let test = LeetCode.CountTheRepetitions()
+let value = test.getMaxRepetitions("baba", 11, "baab", 1)
 
-print("\"\(value)\"")
+print("output: \'\(value)\'")

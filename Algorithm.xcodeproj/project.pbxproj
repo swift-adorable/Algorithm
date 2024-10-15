@@ -20,6 +20,7 @@
 		D04620BC28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04620BB28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift */; };
 		D049087D28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = D049087C28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift */; };
 		D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */; };
+		D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */; };
 		D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */; };
 		D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */; };
 		D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */; };
@@ -66,6 +67,7 @@
 		D04620BB28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalculateParkingFee+KBR2022.swift"; sourceTree = "<group>"; };
 		D049087C28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GetPrimeNoInKdecimal+KBR2022.swift"; sourceTree = "<group>"; };
 		D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuadTree+BaekJoon1992.swift"; sourceTree = "<group>"; };
+		D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "466. Count The Repetitions.swift"; sourceTree = "<group>"; };
 		D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrdinaryKnapsack+BJ12865.swift"; sourceTree = "<group>"; };
 		D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lotto+BaekJoon6603.swift"; sourceTree = "<group>"; };
 		D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			children = (
 				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
 				D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */,
+				D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */,
 				D044099B2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift */,
 			);
 			path = LeetCode;
@@ -204,8 +207,8 @@
 		FF8B42E128D49CB100840DA0 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
-				FF8B42E028D49C9A00840DA0 /* Kakao Internship 2022 */,
 				FFBF1ED028D8999D002598E6 /* Kakao Blind Recruitment 2022 */,
+				FF8B42E028D49C9A00840DA0 /* Kakao Internship 2022 */,
 				FF8B42E428D49D1000840DA0 /* Summer Winter ~2018 */,
 			);
 			path = Programmers;
@@ -222,11 +225,11 @@
 		FFBF1ED028D8999D002598E6 /* Kakao Blind Recruitment 2022 */ = {
 			isa = PBXGroup;
 			children = (
-				D025238628D843C7002FE508 /* ReceiveReportResult+KBR2022.swift */,
-				FFBF1ED128D8B5A1002598E6 /* CompetitionArchery+KBR2022.swift */,
 				D04620BB28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift */,
+				FFBF1ED128D8B5A1002598E6 /* CompetitionArchery+KBR2022.swift */,
 				D049087C28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift */,
 				D02A131128DBDDB2000742FF /* IndestructibleBuilding+KBR2022.swift */,
+				D025238628D843C7002FE508 /* ReceiveReportResult+KBR2022.swift */,
 				D02A131328DBE34E000742FF /* SheepAndWolf+KBR2022.swift */,
 			);
 			path = "Kakao Blind Recruitment 2022";
@@ -308,6 +311,7 @@
 				D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */,
 				FFA8C97E28D5CCE700396367 /* TwoDimensionArray.swift in Sources */,
 				FF8B42E628D49D7600840DA0 /* PersonalTypeTest+SW2018.swift in Sources */,
+				D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */,
 				FF765E8428D5BB9D003C06DA /* DeterminigHikingCourse+KI2022.swift in Sources */,
 				D0250D4A28BCB61D00CD81D9 /* WhatIsRecursive+BaekJoon17478.swift in Sources */,
 				FFB2418728A1401B00CEDA34 /* Utilitys.swift in Sources */,
