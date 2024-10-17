@@ -22,6 +22,7 @@
 		D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */; };
 		D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */; };
 		D08F3AEC2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */; };
+		D08F3AEE2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */; };
 		D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */; };
 		D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */; };
 		D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */; };
@@ -70,6 +71,7 @@
 		D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuadTree+BaekJoon1992.swift"; sourceTree = "<group>"; };
 		D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "466. Count The Repetitions.swift"; sourceTree = "<group>"; };
 		D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2447. Number of Subarrays With GCD Equal to K.swift"; sourceTree = "<group>"; };
+		D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2712. Minimum Cost to Make All Characters Equal.swift"; sourceTree = "<group>"; };
 		D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrdinaryKnapsack+BJ12865.swift"; sourceTree = "<group>"; };
 		D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lotto+BaekJoon6603.swift"; sourceTree = "<group>"; };
 		D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */,
 				D044099B2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift */,
 				D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */,
+				D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				D025238728D843C7002FE508 /* ReceiveReportResult+KBR2022.swift in Sources */,
 				FFEAD7BE28D1675700DA5DD3 /* BinaryTree.swift in Sources */,
 				D01C83E828B4B95B0059B2D7 /* Z+BaekJoon1074.swift in Sources */,
+				D08F3AEE2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift in Sources */,
 				D02A131428DBE34E000742FF /* SheepAndWolf+KBR2022.swift in Sources */,
 				D044099C2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift in Sources */,
 				FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */,
