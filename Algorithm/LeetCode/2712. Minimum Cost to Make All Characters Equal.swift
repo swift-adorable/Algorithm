@@ -59,10 +59,46 @@ extension LeetCode {
         }
         
     }
-    
+        
 }
 /*
- 아래 알고리즘은 O(n^2)의 시간 복잡도를 가지고 있어, 큰 입력값에 대해 비효율적
+ 
+ 반복문을 하나 제거 해도 결국 재귀 함수에 의해 시간 복잡도는 O(n^2)을 갖게 된다.
+ 
+ func minimumCost(_ s: String) -> Int {
+
+     let n = s.count
+
+     if n == 1 {
+         return 0
+     } else if n == 2 {
+         return s.first == s.last ? 0 : 1
+     } else if let firstChar = s.first,
+             s.filter({ $0 == firstChar }).count == s.count {
+         return 0
+     }
+
+     let arr = Array(s)
+     var minCost = Int.max
+
+     let idx = n / 2
+
+     var cost = 0
+     let char = arr[idx]
+
+     let leftStr = String(arr[0...idx-1])
+     cost += leftCost(char, leftStr, 0)
+
+     let rightStr = String(arr[idx+1..<n])
+     cost += rightCost(char, rightStr, 0)
+
+     minCost = min(minCost, cost)
+
+     return minCost
+ }
+ 
+ 
+ 아래 작성한 알고리즘은 O(n^2)의 시간 복잡도를 가지고 있어, 큰 입력값에 대해 비효율적
  
  func minimumCost(_ s: String) -> Int {
      
