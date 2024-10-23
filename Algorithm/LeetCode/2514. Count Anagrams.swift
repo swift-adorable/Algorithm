@@ -48,7 +48,7 @@ extension LeetCode {
     final class CountAnagrams {
         
         private let MOD = 1_000_000_007
-        
+            
         func countAnagrams(_ s: String) -> Int {
             let sliceArray = s.components(separatedBy: " ")
             
@@ -63,26 +63,84 @@ extension LeetCode {
                 }
                 
                 bufferDict.forEach {
-                    total /= factorial($0.value)
-                    total %= MOD
+                    // 모듈러 역원 사용
+                    total = (total * modInverse(factorial($0.value), MOD)) % MOD
                 }
                 
-                return total % MOD
+                return total
             }.reduce(1) {
-                return $0 * $1 % MOD
+                return ($0 * $1) % MOD
             }
             
             return total
-            
         }
         
-        private func factorial(_ n: Int, _ mul: Int = 1) -> Int {
-            let buffer = n - 1
-            guard buffer > 0 else {
-                return mul % MOD
+        private func factorial(_ n: Int) -> Int {
+            var result = 1
+            for i in 1...n {
+                result = (result * i) % MOD
             }
-            return factorial(buffer, mul * n % MOD)
+            return result
         }
+        
+        // 모듈러 역원 계산 함수 (페르마의 소정리 이용)
+        private func modInverse(_ a: Int, _ m: Int) -> Int {
+            return powMod(a, m - 2, m)
+        }
+        
+        // 빠른 거듭제곱을 이용한 모듈러 연산
+        private func powMod(_ base: Int, _ exp: Int, _ mod: Int) -> Int {
+            var result = 1
+            var base = base % mod
+            var exp = exp
+            
+            while exp > 0 {
+                if exp % 2 == 1 {
+                    result = (result * base) % mod
+                }
+                base = (base * base) % mod
+                exp /= 2
+            }
+            
+            return result
+        }
+    
+//         private let MOD = 1_000_000_007
+//            
+//         func countAnagrams(_ s: String) -> Int {
+//             let sliceArray = s.components(separatedBy: " ")
+//            
+//             let total = sliceArray.map { str -> Int in
+//                 var total = factorial(str.count)
+//                
+//                 var bufferDict: [Character: Int] = [:]
+//                 let arrayStr = Array(str)
+//                
+//                 arrayStr.forEach {
+//                     bufferDict[$0, default: 0] += 1
+//                 }
+//                
+//                 bufferDict.forEach {
+//                     total /= factorial($0.value)
+//                     total %= MOD
+//                 }
+//                
+//                 return total
+//             }.reduce(1) {
+//                 return ($0 * $1) % MOD
+//             }
+//            
+//             return total
+//            
+//         }
+//        
+//         private func factorial(_ n: Int, _ mul: Int = 1) -> Int {
+//             let buffer = n - 1
+//             guard buffer > 0 else {
+//                 return mul
+//             }
+//             return factorial(buffer, mul * n % MOD)
+//         }
         
     }
     
