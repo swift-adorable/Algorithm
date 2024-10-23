@@ -27,6 +27,7 @@
 		D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */; };
 		D0BFC3752CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BFC3742CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift */; };
 		D0BFC3772CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BFC3762CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift */; };
+		D0BFC3792CC86B1800189B88 /* 2514. Count Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BFC3782CC86B1800189B88 /* 2514. Count Anagrams.swift */; };
 		D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */; };
 		D0FF8D0B2CB8B9040025DC8C /* LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */; };
 		FF200E5028A12C610018E77A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E4F28A12C610018E77A /* main.swift */; };
@@ -78,6 +79,7 @@
 		D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lotto+BaekJoon6603.swift"; sourceTree = "<group>"; };
 		D0BFC3742CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2516. Take K of Each Character From Left and Right.swift"; sourceTree = "<group>"; };
 		D0BFC3762CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2351. First Letter to Appear Twice.swift"; sourceTree = "<group>"; };
+		D0BFC3782CC86B1800189B88 /* 2514. Count Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2514. Count Anagrams.swift"; sourceTree = "<group>"; };
 		D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
 		D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode.swift; sourceTree = "<group>"; };
 		FF200E4C28A12C610018E77A /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 		D0FF8D072CB8B73E0025DC8C /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
 				D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */,
 				D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */,
 				D044099B2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift */,
@@ -143,7 +146,7 @@
 				D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */,
 				D0BFC3742CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift */,
 				D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */,
-				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
+				D0BFC3782CC86B1800189B88 /* 2514. Count Anagrams.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */,
 				FFA8C97E28D5CCE700396367 /* TwoDimensionArray.swift in Sources */,
 				FF8B42E628D49D7600840DA0 /* PersonalTypeTest+SW2018.swift in Sources */,
+				D0BFC3792CC86B1800189B88 /* 2514. Count Anagrams.swift in Sources */,
 				D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */,
 				FF765E8428D5BB9D003C06DA /* DeterminigHikingCourse+KI2022.swift in Sources */,
 				D0250D4A28BCB61D00CD81D9 /* WhatIsRecursive+BaekJoon17478.swift in Sources */,

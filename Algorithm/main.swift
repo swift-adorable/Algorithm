@@ -7,6 +7,6 @@
 
 import Foundation
 
-let test = LeetCode.FirstLetterToAppearTwice()
-let value = test.repeatedCharacter("abcdd")
+let test = LeetCode.CountAnagrams()
+let value = test.countAnagrams("b okzojaporykbmq tybq zrztwlolvcyumcsq jjuowpp")
 print("output: \'\(value)\'")
