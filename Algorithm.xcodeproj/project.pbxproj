@@ -23,6 +23,7 @@
 		D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */; };
 		D08F3AEC2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */; };
 		D08F3AEE2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */; };
+		D09962922CE31BF700B505E3 /* 219. Contains Duplicate II.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09962912CE31BF700B505E3 /* 219. Contains Duplicate II.swift */; };
 		D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */; };
 		D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */; };
 		D0B7F33D2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */; };
@@ -76,6 +77,7 @@
 		D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "466. Count The Repetitions.swift"; sourceTree = "<group>"; };
 		D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2447. Number of Subarrays With GCD Equal to K.swift"; sourceTree = "<group>"; };
 		D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2712. Minimum Cost to Make All Characters Equal.swift"; sourceTree = "<group>"; };
+		D09962912CE31BF700B505E3 /* 219. Contains Duplicate II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "219. Contains Duplicate II.swift"; sourceTree = "<group>"; };
 		D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrdinaryKnapsack+BJ12865.swift"; sourceTree = "<group>"; };
 		D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lotto+BaekJoon6603.swift"; sourceTree = "<group>"; };
 		D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "951. Flip Equivalent Binary Trees.swift"; sourceTree = "<group>"; };
@@ -140,16 +142,17 @@
 		D0FF8D072CB8B73E0025DC8C /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
 				D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */,
+				D09962912CE31BF700B505E3 /* 219. Contains Duplicate II.swift */,
 				D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */,
+				D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */,
 				D044099B2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift */,
 				D0BFC3762CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift */,
 				D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */,
+				D0BFC3782CC86B1800189B88 /* 2514. Count Anagrams.swift */,
 				D0BFC3742CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift */,
 				D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */,
-				D0BFC3782CC86B1800189B88 /* 2514. Count Anagrams.swift */,
-				D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */,
+				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				FF8B42E628D49D7600840DA0 /* PersonalTypeTest+SW2018.swift in Sources */,
 				D0BFC3792CC86B1800189B88 /* 2514. Count Anagrams.swift in Sources */,
 				D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */,
+				D09962922CE31BF700B505E3 /* 219. Contains Duplicate II.swift in Sources */,
 				FF765E8428D5BB9D003C06DA /* DeterminigHikingCourse+KI2022.swift in Sources */,
 				D0250D4A28BCB61D00CD81D9 /* WhatIsRecursive+BaekJoon17478.swift in Sources */,
 				FFB2418728A1401B00CEDA34 /* Utilitys.swift in Sources */,
