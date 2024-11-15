@@ -7,6 +7,6 @@
 
 import Foundation
 
-let test = LeetCode.ContainsDuplicateII()
-let value = test.containsNearbyDuplicate([1,2,3,4,5,6,7,8,9,9], 3)
+let test = LeetCode.MinimumOperationsToMakeASpecialNumber()
+let value = test.minimumOperations("5")
 print("output: \'\(value)\'")

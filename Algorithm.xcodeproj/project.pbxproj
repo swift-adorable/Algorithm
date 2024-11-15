@@ -20,6 +20,7 @@
 		D04620BC28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04620BB28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift */; };
 		D049087D28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = D049087C28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift */; };
 		D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */; };
+		D085CC442CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */; };
 		D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */; };
 		D08F3AEC2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */; };
 		D08F3AEE2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */; };
@@ -74,6 +75,7 @@
 		D04620BB28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalculateParkingFee+KBR2022.swift"; sourceTree = "<group>"; };
 		D049087C28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GetPrimeNoInKdecimal+KBR2022.swift"; sourceTree = "<group>"; };
 		D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuadTree+BaekJoon1992.swift"; sourceTree = "<group>"; };
+		D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2844. Minimum Operations to Make a Special Number.swift"; sourceTree = "<group>"; };
 		D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "466. Count The Repetitions.swift"; sourceTree = "<group>"; };
 		D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2447. Number of Subarrays With GCD Equal to K.swift"; sourceTree = "<group>"; };
 		D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2712. Minimum Cost to Make All Characters Equal.swift"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				D0BFC3742CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift */,
 				D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */,
 				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
+				D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				FF86FDDE28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift in Sources */,
 				FF200E5028A12C610018E77A /* main.swift in Sources */,
 				D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */,
+				D085CC442CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift in Sources */,
 				D02C957C28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift in Sources */,
 				D08F3AEC2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift in Sources */,
 				FF765E8228D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift in Sources */,
