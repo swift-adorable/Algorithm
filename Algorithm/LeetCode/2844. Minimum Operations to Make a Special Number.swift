@@ -58,7 +58,6 @@ extension LeetCode {
             var arr = Array(String(num.reversed()))
             
             var minCount = Int.max
-            var value = 0
             
             while arr.isEmpty == false {
                 
