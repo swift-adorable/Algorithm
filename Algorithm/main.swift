@@ -7,6 +7,6 @@
 
 import Foundation
 
-let test = LeetCode.MinimumOperationsToMakeASpecialNumber()
-let value = test.minimumOperations("5")
+let test = LeetCode.FindAllAnagramsInAString()
+let value = test.findAnagrams("abccccdefgh", "ghf")
 print("output: \'\(value)\'")

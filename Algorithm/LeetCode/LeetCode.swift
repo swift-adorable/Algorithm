@@ -7,4 +7,8 @@
 
 import Foundation
 
-final class LeetCode { }
+final class LeetCode { 
+    
+    static let MOD = 1_000_000_007
+    
+}

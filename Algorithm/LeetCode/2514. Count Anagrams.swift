@@ -46,10 +46,11 @@ import Foundation
 extension LeetCode {
     
     final class CountAnagrams {
-        
-        private let MOD = 1_000_000_007
             
         func countAnagrams(_ s: String) -> Int {
+            
+            let MOD = LeetCode.MOD
+            
             let sliceArray = s.components(separatedBy: " ")
             
             let total = sliceArray.map { str -> Int in

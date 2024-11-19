@@ -25,6 +25,7 @@
 		D08F3AEC2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */; };
 		D08F3AEE2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */; };
 		D09962922CE31BF700B505E3 /* 219. Contains Duplicate II.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09962912CE31BF700B505E3 /* 219. Contains Duplicate II.swift */; };
+		D0A8F6A52CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */; };
 		D0B0C0742CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0C0732CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift */; };
 		D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */; };
 		D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */; };
@@ -81,7 +82,9 @@
 		D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2447. Number of Subarrays With GCD Equal to K.swift"; sourceTree = "<group>"; };
 		D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2712. Minimum Cost to Make All Characters Equal.swift"; sourceTree = "<group>"; };
 		D09962912CE31BF700B505E3 /* 219. Contains Duplicate II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "219. Contains Duplicate II.swift"; sourceTree = "<group>"; };
+		D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "438. Find All Anagrams in a String.swift"; sourceTree = "<group>"; };
 		D0B0C0732CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "693. Binary Number with Alternating Bits.swift"; sourceTree = "<group>"; };
+		D0B0C0792CEAF98900A9B91C /* Sliding Window.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Sliding Window.md"; sourceTree = "<group>"; };
 		D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrdinaryKnapsack+BJ12865.swift"; sourceTree = "<group>"; };
 		D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lotto+BaekJoon6603.swift"; sourceTree = "<group>"; };
 		D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "951. Flip Equivalent Binary Trees.swift"; sourceTree = "<group>"; };
@@ -135,6 +138,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		D0B0C0782CEAF97400A9B91C /* Theory */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0C0792CEAF98900A9B91C /* Sliding Window.md */,
+			);
+			path = Theory;
+			sourceTree = "<group>";
+		};
 		D0B13F2B28C5D7550012DD19 /* Dynamic Programming */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +160,7 @@
 				D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */,
 				D09962912CE31BF700B505E3 /* 219. Contains Duplicate II.swift */,
 				D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */,
+				D0B0C0732CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift */,
 				D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */,
 				D044099B2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift */,
 				D0BFC3762CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift */,
@@ -156,9 +168,9 @@
 				D0BFC3782CC86B1800189B88 /* 2514. Count Anagrams.swift */,
 				D0BFC3742CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift */,
 				D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */,
-				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
 				D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */,
-				D0B0C0732CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift */,
+				D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */,
+				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -166,6 +178,7 @@
 		FF200E4328A12C610018E77A = {
 			isa = PBXGroup;
 			children = (
+				D0B0C0782CEAF97400A9B91C /* Theory */,
 				D074855428D8041E00E60024 /* Extensions */,
 				FF200E5A28A12FEB0018E77A /* Utils */,
 				D02AEE3E28C81886002A5077 /* DataStructure */,
@@ -337,6 +350,7 @@
 				D049087D28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift in Sources */,
 				D0B7F33D2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift in Sources */,
 				D04620BC28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift in Sources */,
+				D0A8F6A52CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift in Sources */,
 				FFBF1ED228D8B5A1002598E6 /* CompetitionArchery+KBR2022.swift in Sources */,
 				D02739CC28BEE22C00C2C8C0 /* FileIO+byRhino.swift in Sources */,
 				D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */,
@@ -487,7 +501,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QMB27NV87J;
+				DEVELOPMENT_TEAM = FBLJCKLSPV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -499,7 +513,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QMB27NV87J;
+				DEVELOPMENT_TEAM = FBLJCKLSPV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
