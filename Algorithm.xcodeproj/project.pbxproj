@@ -25,6 +25,7 @@
 		D08F3AEC2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */; };
 		D08F3AEE2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */; };
 		D09962922CE31BF700B505E3 /* 219. Contains Duplicate II.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09962912CE31BF700B505E3 /* 219. Contains Duplicate II.swift */; };
+		D0A667BB2CED55A90012CF78 /* 3227. Vowels Game in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A667BA2CED55A90012CF78 /* 3227. Vowels Game in a String.swift */; };
 		D0A8F6A52CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */; };
 		D0B0C0742CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0C0732CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift */; };
 		D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */; };
@@ -82,6 +83,7 @@
 		D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2447. Number of Subarrays With GCD Equal to K.swift"; sourceTree = "<group>"; };
 		D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2712. Minimum Cost to Make All Characters Equal.swift"; sourceTree = "<group>"; };
 		D09962912CE31BF700B505E3 /* 219. Contains Duplicate II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "219. Contains Duplicate II.swift"; sourceTree = "<group>"; };
+		D0A667BA2CED55A90012CF78 /* 3227. Vowels Game in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3227. Vowels Game in a String.swift"; sourceTree = "<group>"; };
 		D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "438. Find All Anagrams in a String.swift"; sourceTree = "<group>"; };
 		D0B0C0732CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "693. Binary Number with Alternating Bits.swift"; sourceTree = "<group>"; };
 		D0B0C0792CEAF98900A9B91C /* Sliding Window.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Sliding Window.md"; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */,
 				D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */,
 				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
+				D0A667BA2CED55A90012CF78 /* 3227. Vowels Game in a String.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				FFA8C98228D7669600396367 /* StudyCodingTest+KI2022.swift in Sources */,
 				D02A131228DBDDB2000742FF /* IndestructibleBuilding+KBR2022.swift in Sources */,
 				D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */,
+				D0A667BB2CED55A90012CF78 /* 3227. Vowels Game in a String.swift in Sources */,
 				D0BFC3752CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

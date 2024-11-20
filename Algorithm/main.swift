@@ -7,6 +7,6 @@
 
 import Foundation
 
-let test = LeetCode.FindAllAnagramsInAString()
-let value = test.findAnagrams("abccccdefgh", "ghf")
+let test = LeetCode.VowelsGameInAString()
+let value = test.doesAliceWin("leetcoder")
 print("output: \'\(value)\'")
