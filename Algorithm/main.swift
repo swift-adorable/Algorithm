@@ -7,6 +7,16 @@
 
 import Foundation
 
-let test = LeetCode.SearchA2DMatrix()
-let value = test.searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 3)
-print("output: \'\(value)\'")
+let test = LeetCode.RotateList()
+
+// Given array
+let array = [1, 2, 3, 4, 5]
+
+// Convert the array to a linked list
+let linkedListHead = LeetCode.RotateList.ListNode.arrayToLinkedList(array)
+
+// Print the linked list
+LeetCode.RotateList.ListNode.printLinkedList(linkedListHead)
+
+let value = test.rotateRight(linkedListHead, 2)
+//print("output: \'\(value)\'")

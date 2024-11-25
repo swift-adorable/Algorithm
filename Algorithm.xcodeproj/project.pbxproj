@@ -35,6 +35,8 @@
 		D0BFC3752CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BFC3742CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift */; };
 		D0BFC3772CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BFC3762CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift */; };
 		D0BFC3792CC86B1800189B88 /* 2514. Count Anagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BFC3782CC86B1800189B88 /* 2514. Count Anagrams.swift */; };
+		D0C286772CEFF46800FE5356 /* 1108. Defanging an IP Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C286762CEFF46800FE5356 /* 1108. Defanging an IP Address.swift */; };
+		D0C286792CEFF9E800FE5356 /* 61. Rotate List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C286782CEFF9E800FE5356 /* 61. Rotate List.swift */; };
 		D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */; };
 		D0FF8D0B2CB8B9040025DC8C /* LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */; };
 		FF200E5028A12C610018E77A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E4F28A12C610018E77A /* main.swift */; };
@@ -67,6 +69,7 @@
 
 /* Begin PBXFileReference section */
 		D01C83E728B4B95B0059B2D7 /* Z+BaekJoon1074.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Z+BaekJoon1074.swift"; sourceTree = "<group>"; };
+		D01D04D22CF3FBC500A938A8 /* Reference vs Copy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Reference vs Copy.md"; sourceTree = "<group>"; };
 		D0250D4728BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumOfPaper+BaekJoon1780.swift"; sourceTree = "<group>"; };
 		D0250D4928BCB61D00CD81D9 /* WhatIsRecursive+BaekJoon17478.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WhatIsRecursive+BaekJoon17478.swift"; sourceTree = "<group>"; };
 		D025238628D843C7002FE508 /* ReceiveReportResult+KBR2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReceiveReportResult+KBR2022.swift"; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 		D0BFC3742CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2516. Take K of Each Character From Left and Right.swift"; sourceTree = "<group>"; };
 		D0BFC3762CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2351. First Letter to Appear Twice.swift"; sourceTree = "<group>"; };
 		D0BFC3782CC86B1800189B88 /* 2514. Count Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2514. Count Anagrams.swift"; sourceTree = "<group>"; };
+		D0C286762CEFF46800FE5356 /* 1108. Defanging an IP Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1108. Defanging an IP Address.swift"; sourceTree = "<group>"; };
+		D0C286782CEFF9E800FE5356 /* 61. Rotate List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61. Rotate List.swift"; sourceTree = "<group>"; };
 		D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
 		D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode.swift; sourceTree = "<group>"; };
 		FF200E4C28A12C610018E77A /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				D0B0C0792CEAF98900A9B91C /* Sliding Window.md */,
+				D01D04D22CF3FBC500A938A8 /* Reference vs Copy.md */,
 			);
 			path = Theory;
 			sourceTree = "<group>";
@@ -162,10 +168,14 @@
 			isa = PBXGroup;
 			children = (
 				D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */,
+				D0C286782CEFF9E800FE5356 /* 61. Rotate List.swift */,
+				D0BF366B2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift */,
 				D09962912CE31BF700B505E3 /* 219. Contains Duplicate II.swift */,
+				D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */,
 				D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */,
 				D0B0C0732CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift */,
 				D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */,
+				D0C286762CEFF46800FE5356 /* 1108. Defanging an IP Address.swift */,
 				D044099B2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift */,
 				D0BFC3762CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift */,
 				D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */,
@@ -173,10 +183,8 @@
 				D0BFC3742CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift */,
 				D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */,
 				D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */,
-				D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */,
-				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
 				D0A667BA2CED55A90012CF78 /* 3227. Vowels Game in a String.swift */,
-				D0BF366B2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift */,
+				D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -378,6 +386,8 @@
 				FF765E8228D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift in Sources */,
 				FF8B42E328D49D0A00840DA0 /* Budget+KI2022.swift in Sources */,
 				D02AEE4028C818AB002A5077 /* Heap.swift in Sources */,
+				D0C286772CEFF46800FE5356 /* 1108. Defanging an IP Address.swift in Sources */,
+				D0C286792CEFF9E800FE5356 /* 61. Rotate List.swift in Sources */,
 				FFA8C98228D7669600396367 /* StudyCodingTest+KI2022.swift in Sources */,
 				D02A131228DBDDB2000742FF /* IndestructibleBuilding+KBR2022.swift in Sources */,
 				D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */,
