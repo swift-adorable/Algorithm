@@ -7,6 +7,6 @@
 
 import Foundation
 
-let test = LeetCode.RabbitsInForest()
-let value = test.numRabbits([4,4,4,4,4,4,4])
+let test = LeetCode.FindTheCountOfNumWhichAreNotSpecial()
+let value = test.nonSpecialCount(1, 4)
 print("output: \'\(value)\'")

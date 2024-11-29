@@ -42,8 +42,6 @@ extension LeetCode {
                 dicts[$0, default: 0] += 1
             }
             
-            print(dicts)
-            
             let result = dicts
                 .map { dict -> Int in
                     if dict.key == 0 {
