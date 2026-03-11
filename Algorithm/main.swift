@@ -7,6 +7,12 @@
 
 import Foundation
 
-let test = LeetCode.FindTheCountOfNumWhichAreNotSpecial()
-let value = test.nonSpecialCount(1, 4)
-print("output: \'\(value)\'")
+//let test = TopInterviewQuestions_Easy.Solution()
+//var array = [1,1,2]
+//let value = test.removeDuplicates(&array)
+//print("output: \(value) \'\(array)\'")
+
+let test = LeetCode75.CanPlaceFlowers()
+let result = test.canPlaceFlowers([1, 0, 0, 0, 0, 1], 2)
+print(result)
+

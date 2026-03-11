@@ -5,9 +5,10 @@
 //  Created by 이정호 on 2022/09/07.
 //
 
-//MARK: Heap 🔖
-/*
- Heap 이란⁉️
+import Foundation
+
+/**
+ 🔖 Heap 이란⁉️
  - 완전 이진트리의 일종으로 우선순위 큐를 위해 만들어진 자료구조.
  - 중복된 값을 허용한다. (이진 탐색 트리에서는 중복된 값 허용하지 않음.)
  - 이진 트리의 형태로 구현되었기 때문에 삽입과 삭제의 시간복잡도는 O(log(N))
@@ -19,8 +20,6 @@
         - Min Heap: 부모 노드의 키 값이 자식 노드의 키 값보다 작거나 같은 완전 이진트리
  
  */
-
-import Foundation
 
 struct Heap<T: Comparable> {
     private var elements: [T] = []
