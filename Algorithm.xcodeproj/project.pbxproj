@@ -24,6 +24,7 @@
 		D049087D28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift in Sources */ = {isa = PBXBuildFile; fileRef = D049087C28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift */; };
 		D05BB2852F623A9400A649CD /* 345. Reverse Vowels of a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BB2842F623A9400A649CD /* 345. Reverse Vowels of a String.swift */; };
 		D05BB2872F623ED800A649CD /* 151. Reverse Words in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BB2862F623ED800A649CD /* 151. Reverse Words in a String.swift */; };
+		D05BB2892F62880E00A649CD /* 238. Product of Array Except Self.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BB2882F62880E00A649CD /* 238. Product of Array Except Self.swift */; };
 		D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */; };
 		D085CC442CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */; };
 		D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */; };
@@ -40,6 +41,8 @@
 		D0A8F6A52CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */; };
 		D0B0C0742CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0C0732CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift */; };
 		D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */; };
+		D0B239112F639712000943E9 /* 334. Increasing Triplet Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B239102F639712000943E9 /* 334. Increasing Triplet Subsequence.swift */; };
+		D0B239132F63AC6A000943E9 /* 443. String Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B239122F63AC6A000943E9 /* 443. String Compression.swift */; };
 		D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */; };
 		D0B7F33D2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */; };
 		D0BF366C2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BF366B2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift */; };
@@ -98,6 +101,7 @@
 		D049087C28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GetPrimeNoInKdecimal+KBR2022.swift"; sourceTree = "<group>"; };
 		D05BB2842F623A9400A649CD /* 345. Reverse Vowels of a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "345. Reverse Vowels of a String.swift"; sourceTree = "<group>"; };
 		D05BB2862F623ED800A649CD /* 151. Reverse Words in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151. Reverse Words in a String.swift"; sourceTree = "<group>"; };
+		D05BB2882F62880E00A649CD /* 238. Product of Array Except Self.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "238. Product of Array Except Self.swift"; sourceTree = "<group>"; };
 		D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuadTree+BaekJoon1992.swift"; sourceTree = "<group>"; };
 		D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2844. Minimum Operations to Make a Special Number.swift"; sourceTree = "<group>"; };
 		D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "466. Count The Repetitions.swift"; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 		D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "438. Find All Anagrams in a String.swift"; sourceTree = "<group>"; };
 		D0B0C0732CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "693. Binary Number with Alternating Bits.swift"; sourceTree = "<group>"; };
 		D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrdinaryKnapsack+BJ12865.swift"; sourceTree = "<group>"; };
+		D0B239102F639712000943E9 /* 334. Increasing Triplet Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "334. Increasing Triplet Subsequence.swift"; sourceTree = "<group>"; };
+		D0B239122F63AC6A000943E9 /* 443. String Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "443. String Compression.swift"; sourceTree = "<group>"; };
 		D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lotto+BaekJoon6603.swift"; sourceTree = "<group>"; };
 		D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "951. Flip Equivalent Binary Trees.swift"; sourceTree = "<group>"; };
 		D0BF366B2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "74. Search a 2D Matrix.swift"; sourceTree = "<group>"; };
@@ -227,6 +233,9 @@
 				D0C54A3C2F60E5F90060A721 /* 605. Can Place Flowers.swift */,
 				D05BB2842F623A9400A649CD /* 345. Reverse Vowels of a String.swift */,
 				D05BB2862F623ED800A649CD /* 151. Reverse Words in a String.swift */,
+				D05BB2882F62880E00A649CD /* 238. Product of Array Except Self.swift */,
+				D0B239102F639712000943E9 /* 334. Increasing Triplet Subsequence.swift */,
+				D0B239122F63AC6A000943E9 /* 443. String Compression.swift */,
 			);
 			path = "Array, String";
 			sourceTree = "<group>";
@@ -422,6 +431,7 @@
 			files = (
 				FFB2418928A140EB00CEDA34 /* LowestCommonMultiple.swift in Sources */,
 				D0250D4828BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift in Sources */,
+				D0B239132F63AC6A000943E9 /* 443. String Compression.swift in Sources */,
 				D032FB112CF999FE00A20614 /* 1498. Number of Subsequences That Satisfy the Given Sum Condition.swift in Sources */,
 				D025238728D843C7002FE508 /* ReceiveReportResult+KBR2022.swift in Sources */,
 				FFEAD7BE28D1675700DA5DD3 /* BinaryTree.swift in Sources */,
@@ -441,9 +451,11 @@
 				D0B7F33D2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift in Sources */,
 				D04620BC28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift in Sources */,
 				D0A8F6A52CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift in Sources */,
+				D05BB2892F62880E00A649CD /* 238. Product of Array Except Self.swift in Sources */,
 				FFBF1ED228D8B5A1002598E6 /* CompetitionArchery+KBR2022.swift in Sources */,
 				D02739CC28BEE22C00C2C8C0 /* FileIO+byRhino.swift in Sources */,
 				D09F7E1C2F5FAB99005EC21A /* 1071. Greatest Common Divisor of Strings.swift in Sources */,
+				D0B239112F639712000943E9 /* 334. Increasing Triplet Subsequence.swift in Sources */,
 				D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */,
 				FFA8C97E28D5CCE700396367 /* TwoDimensionArray.swift in Sources */,
 				FF8B42E628D49D7600840DA0 /* PersonalTypeTest+SW2018.swift in Sources */,

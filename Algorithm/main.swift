@@ -6,8 +6,8 @@
 //
 
 import Foundation
-
-let test = LeetCode75.ReverseWordsInAString()
-let result = test.reverseWords("  hello world  ")
+var array: [Character] = ["a","a","b","b","c","c","c"]
+let test = LeetCode75.StringCompression()
+let result = test.compress(&array)
 print(result)
 
