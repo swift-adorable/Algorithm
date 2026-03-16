@@ -33,7 +33,6 @@ extension LeetCode75 {
                     }
                 }
 
-                print("chars: \(chars), write: \(write), read: \(read)")
             }
             
             return write

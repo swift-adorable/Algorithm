@@ -25,6 +25,10 @@
 		D05BB2852F623A9400A649CD /* 345. Reverse Vowels of a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BB2842F623A9400A649CD /* 345. Reverse Vowels of a String.swift */; };
 		D05BB2872F623ED800A649CD /* 151. Reverse Words in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BB2862F623ED800A649CD /* 151. Reverse Words in a String.swift */; };
 		D05BB2892F62880E00A649CD /* 238. Product of Array Except Self.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BB2882F62880E00A649CD /* 238. Product of Array Except Self.swift */; };
+		D077B5902F6776CB00732511 /* 283. Move Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077B58F2F6776CB00732511 /* 283. Move Zeroes.swift */; };
+		D077B5922F678D2C00732511 /* 392. Is Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077B5912F678D2C00732511 /* 392. Is Subsequence.swift */; };
+		D077B5942F67901300732511 /* 11. Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077B5932F67901300732511 /* 11. Container With Most Water.swift */; };
+		D077B5962F67A3DA00732511 /* 1679. Max Number of K-Sum Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077B5952F67A3DA00732511 /* 1679. Max Number of K-Sum Pairs.swift */; };
 		D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */; };
 		D085CC442CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */; };
 		D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */; };
@@ -102,6 +106,10 @@
 		D05BB2842F623A9400A649CD /* 345. Reverse Vowels of a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "345. Reverse Vowels of a String.swift"; sourceTree = "<group>"; };
 		D05BB2862F623ED800A649CD /* 151. Reverse Words in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151. Reverse Words in a String.swift"; sourceTree = "<group>"; };
 		D05BB2882F62880E00A649CD /* 238. Product of Array Except Self.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "238. Product of Array Except Self.swift"; sourceTree = "<group>"; };
+		D077B58F2F6776CB00732511 /* 283. Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. Move Zeroes.swift"; sourceTree = "<group>"; };
+		D077B5912F678D2C00732511 /* 392. Is Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "392. Is Subsequence.swift"; sourceTree = "<group>"; };
+		D077B5932F67901300732511 /* 11. Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11. Container With Most Water.swift"; sourceTree = "<group>"; };
+		D077B5952F67A3DA00732511 /* 1679. Max Number of K-Sum Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1679. Max Number of K-Sum Pairs.swift"; sourceTree = "<group>"; };
 		D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuadTree+BaekJoon1992.swift"; sourceTree = "<group>"; };
 		D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2844. Minimum Operations to Make a Special Number.swift"; sourceTree = "<group>"; };
 		D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "466. Count The Repetitions.swift"; sourceTree = "<group>"; };
@@ -180,6 +188,17 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		D077B58C2F6776A500732511 /* Two Pointers */ = {
+			isa = PBXGroup;
+			children = (
+				D077B58F2F6776CB00732511 /* 283. Move Zeroes.swift */,
+				D077B5912F678D2C00732511 /* 392. Is Subsequence.swift */,
+				D077B5932F67901300732511 /* 11. Container With Most Water.swift */,
+				D077B5952F67A3DA00732511 /* 1679. Max Number of K-Sum Pairs.swift */,
+			);
+			path = "Two Pointers";
+			sourceTree = "<group>";
+		};
 		D09C04482DF8F60700BDC2AE /* Top Interview Questions Easy */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +221,7 @@
 			children = (
 				D09F7E192F5FA721005EC21A /* LeetCode75.swift */,
 				D0C54A3E2F60E7B20060A721 /* Array, String */,
+				D077B58C2F6776A500732511 /* Two Pointers */,
 			);
 			path = "LeetCode 75 Qs";
 			sourceTree = "<group>";
@@ -433,6 +453,7 @@
 				D0250D4828BCA59E00CD81D9 /* NumOfPaper+BaekJoon1780.swift in Sources */,
 				D0B239132F63AC6A000943E9 /* 443. String Compression.swift in Sources */,
 				D032FB112CF999FE00A20614 /* 1498. Number of Subsequences That Satisfy the Given Sum Condition.swift in Sources */,
+				D077B5902F6776CB00732511 /* 283. Move Zeroes.swift in Sources */,
 				D025238728D843C7002FE508 /* ReceiveReportResult+KBR2022.swift in Sources */,
 				FFEAD7BE28D1675700DA5DD3 /* BinaryTree.swift in Sources */,
 				D05BB2872F623ED800A649CD /* 151. Reverse Words in a String.swift in Sources */,
@@ -451,6 +472,7 @@
 				D0B7F33D2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift in Sources */,
 				D04620BC28D9507500D058E4 /* CalculateParkingFee+KBR2022.swift in Sources */,
 				D0A8F6A52CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift in Sources */,
+				D077B5962F67A3DA00732511 /* 1679. Max Number of K-Sum Pairs.swift in Sources */,
 				D05BB2892F62880E00A649CD /* 238. Product of Array Except Self.swift in Sources */,
 				FFBF1ED228D8B5A1002598E6 /* CompetitionArchery+KBR2022.swift in Sources */,
 				D02739CC28BEE22C00C2C8C0 /* FileIO+byRhino.swift in Sources */,
@@ -475,6 +497,7 @@
 				D02C957C28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift in Sources */,
 				D08F3AEC2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift in Sources */,
 				FF765E8228D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift in Sources */,
+				D077B5942F67901300732511 /* 11. Container With Most Water.swift in Sources */,
 				D01D04D42CF4034400A938A8 /* 781. Rabbits in Forest.swift in Sources */,
 				D09C044D2DF8F68D00BDC2AE /* TopInterviewQuestions.swift in Sources */,
 				D09C044F2DF9008400BDC2AE /* 1959. Minimum Total Space Wasted With K Resizing Operations.swift in Sources */,
@@ -491,6 +514,7 @@
 				D0A667BB2CED55A90012CF78 /* 3227. Vowels Game in a String.swift in Sources */,
 				D0BFC3752CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift in Sources */,
 				D09F7E182F5FA6C4005EC21A /* 1768. Merge Strings Alternately.swift in Sources */,
+				D077B5922F678D2C00732511 /* 392. Is Subsequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
