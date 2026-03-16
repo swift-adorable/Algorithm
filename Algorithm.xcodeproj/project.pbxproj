@@ -123,7 +123,7 @@
 		D09F7E192F5FA721005EC21A /* LeetCode75.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode75.swift; sourceTree = "<group>"; };
 		D09F7E1B2F5FAB99005EC21A /* 1071. Greatest Common Divisor of Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1071. Greatest Common Divisor of Strings.swift"; sourceTree = "<group>"; };
 		D09F7E262F5FAC81005EC21A /* Reference vs Copy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Reference vs Copy.md"; sourceTree = "<group>"; };
-		D09F7E272F5FAC81005EC21A /* Sliding Window.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Sliding Window.md"; sourceTree = "<group>"; };
+		D09F7E272F5FAC81005EC21A /* Two Pointer vs Sliding Window.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Two Pointer vs Sliding Window.md"; sourceTree = "<group>"; };
 		D09F7E2A2F5FAC96005EC21A /* Greatest Common Divisor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Greatest Common Divisor.md"; sourceTree = "<group>"; };
 		D0A667BA2CED55A90012CF78 /* 3227. Vowels Game in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3227. Vowels Game in a String.swift"; sourceTree = "<group>"; };
 		D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "438. Find All Anagrams in a String.swift"; sourceTree = "<group>"; };
@@ -219,6 +219,7 @@
 		D09F7E162F5FA682005EC21A /* LeetCode 75 Qs */ = {
 			isa = PBXGroup;
 			children = (
+				D0AC2C9F2F68C643001AEA8A /* Sliding Window */,
 				D09F7E192F5FA721005EC21A /* LeetCode75.swift */,
 				D0C54A3E2F60E7B20060A721 /* Array, String */,
 				D077B58C2F6776A500732511 /* Two Pointers */,
@@ -230,10 +231,17 @@
 			isa = PBXGroup;
 			children = (
 				D09F7E262F5FAC81005EC21A /* Reference vs Copy.md */,
-				D09F7E272F5FAC81005EC21A /* Sliding Window.md */,
+				D09F7E272F5FAC81005EC21A /* Two Pointer vs Sliding Window.md */,
 				D09F7E2A2F5FAC96005EC21A /* Greatest Common Divisor.md */,
 			);
 			path = Theory;
+			sourceTree = "<group>";
+		};
+		D0AC2C9F2F68C643001AEA8A /* Sliding Window */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sliding Window";
 			sourceTree = "<group>";
 		};
 		D0B13F2B28C5D7550012DD19 /* Dynamic Programming */ = {
