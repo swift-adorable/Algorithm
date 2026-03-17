@@ -147,6 +147,7 @@
 		D0C286782CEFF9E800FE5356 /* 61. Rotate List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61. Rotate List.swift"; sourceTree = "<group>"; };
 		D0C54A3A2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431. Kids With the Greatest Number of Candies.swift"; sourceTree = "<group>"; };
 		D0C54A3C2F60E5F90060A721 /* 605. Can Place Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "605. Can Place Flowers.swift"; sourceTree = "<group>"; };
+		D0D704262F6A1DB300ABE45B /* Prefix Sum.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Prefix Sum.md"; sourceTree = "<group>"; };
 		D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
 		D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode.swift; sourceTree = "<group>"; };
 		FF200E4C28A12C610018E77A /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,10 +226,11 @@
 		D09F7E162F5FA682005EC21A /* LeetCode 75 Qs */ = {
 			isa = PBXGroup;
 			children = (
-				D0AC2C9F2F68C643001AEA8A /* Sliding Window */,
+				D0D704232F6A1CCB00ABE45B /* Prefix Sum */,
 				D09F7E192F5FA721005EC21A /* LeetCode75.swift */,
 				D0C54A3E2F60E7B20060A721 /* Array, String */,
 				D077B58C2F6776A500732511 /* Two Pointers */,
+				D0AC2C9F2F68C643001AEA8A /* Sliding Window */,
 			);
 			path = "LeetCode 75 Qs";
 			sourceTree = "<group>";
@@ -239,6 +241,7 @@
 				D09F7E262F5FAC81005EC21A /* Reference vs Copy.md */,
 				D09F7E272F5FAC81005EC21A /* Two Pointer vs Sliding Window.md */,
 				D09F7E2A2F5FAC96005EC21A /* Greatest Common Divisor.md */,
+				D0D704262F6A1DB300ABE45B /* Prefix Sum.md */,
 			);
 			path = Theory;
 			sourceTree = "<group>";
@@ -275,6 +278,14 @@
 				D0B239122F63AC6A000943E9 /* 443. String Compression.swift */,
 			);
 			path = "Array, String";
+			sourceTree = "<group>";
+		};
+		D0D704232F6A1CCB00ABE45B /* Prefix Sum */ = {
+			isa = PBXGroup;
+			children = (
+				D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */,
+			);
+			path = "Prefix Sum";
 			sourceTree = "<group>";
 		};
 		D0FF8D072CB8B73E0025DC8C /* LeetCode */ = {
