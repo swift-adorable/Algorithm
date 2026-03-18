@@ -150,6 +150,7 @@
 		D0C286782CEFF9E800FE5356 /* 61. Rotate List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61. Rotate List.swift"; sourceTree = "<group>"; };
 		D0C54A3A2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431. Kids With the Greatest Number of Candies.swift"; sourceTree = "<group>"; };
 		D0C54A3C2F60E5F90060A721 /* 605. Can Place Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "605. Can Place Flowers.swift"; sourceTree = "<group>"; };
+		D0CA2FB32F6B69B300DDC598 /* Hash Map & Hash Set.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Hash Map & Hash Set.md"; sourceTree = "<group>"; };
 		D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1493. Longest Subarray of 1's After Deleting One Element.swift"; sourceTree = "<group>"; };
 		D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1732. Find the Highest Altitude.swift"; sourceTree = "<group>"; };
 		D0D704262F6A1DB300ABE45B /* Prefix Sum.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Prefix Sum.md"; sourceTree = "<group>"; };
@@ -244,10 +245,11 @@
 		D09F7E292F5FAC8C005EC21A /* Theory */ = {
 			isa = PBXGroup;
 			children = (
+				D09F7E2A2F5FAC96005EC21A /* Greatest Common Divisor.md */,
+				D0CA2FB32F6B69B300DDC598 /* Hash Map & Hash Set.md */,
+				D0D704262F6A1DB300ABE45B /* Prefix Sum.md */,
 				D09F7E262F5FAC81005EC21A /* Reference vs Copy.md */,
 				D09F7E272F5FAC81005EC21A /* Two Pointer vs Sliding Window.md */,
-				D09F7E2A2F5FAC96005EC21A /* Greatest Common Divisor.md */,
-				D0D704262F6A1DB300ABE45B /* Prefix Sum.md */,
 			);
 			path = Theory;
 			sourceTree = "<group>";

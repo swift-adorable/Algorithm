@@ -1,5 +1,5 @@
 
-# 🧮 Prefix Sum (누적 합) 알고리즘 가이드
+# 🧮 Prefix Sum (누적 합)
 
 **Prefix Sum**은 배열의 특정 구간 합(Range Sum Query)을  **$O(1)$** 의 시간으로 해결하기 위해 사용하는 사전 계산(Pre-computation) 기법입니다.
 
