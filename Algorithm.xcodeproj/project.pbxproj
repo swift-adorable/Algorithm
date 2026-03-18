@@ -60,6 +60,9 @@
 		D0C286792CEFF9E800FE5356 /* 61. Rotate List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C286782CEFF9E800FE5356 /* 61. Rotate List.swift */; };
 		D0C54A3B2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C54A3A2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift */; };
 		D0C54A3D2F60E5F90060A721 /* 605. Can Place Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C54A3C2F60E5F90060A721 /* 605. Can Place Flowers.swift */; };
+		D0D704222F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */; };
+		D0D704252F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */; };
+		D0D704282F6A292B00ABE45B /* 724. Find Pivot Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704272F6A292B00ABE45B /* 724. Find Pivot Index.swift */; };
 		D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */; };
 		D0FF8D0B2CB8B9040025DC8C /* LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */; };
 		FF200E5028A12C610018E77A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E4F28A12C610018E77A /* main.swift */; };
@@ -147,7 +150,10 @@
 		D0C286782CEFF9E800FE5356 /* 61. Rotate List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61. Rotate List.swift"; sourceTree = "<group>"; };
 		D0C54A3A2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431. Kids With the Greatest Number of Candies.swift"; sourceTree = "<group>"; };
 		D0C54A3C2F60E5F90060A721 /* 605. Can Place Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "605. Can Place Flowers.swift"; sourceTree = "<group>"; };
+		D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1493. Longest Subarray of 1's After Deleting One Element.swift"; sourceTree = "<group>"; };
+		D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1732. Find the Highest Altitude.swift"; sourceTree = "<group>"; };
 		D0D704262F6A1DB300ABE45B /* Prefix Sum.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Prefix Sum.md"; sourceTree = "<group>"; };
+		D0D704272F6A292B00ABE45B /* 724. Find Pivot Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "724. Find Pivot Index.swift"; sourceTree = "<group>"; };
 		D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
 		D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode.swift; sourceTree = "<group>"; };
 		FF200E4C28A12C610018E77A /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -252,6 +258,7 @@
 				D0AC2CA42F68CE15001AEA8A /* 643. Maximum Average Subarray I.swift */,
 				D0AC2CA62F68D45F001AEA8A /* 1456. Maximum Number of Vowels in a Substring of Given Length.swift */,
 				D0AC2CA82F68DC6E001AEA8A /* 1004. Max Consecutive Ones III.swift */,
+				D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */,
 			);
 			path = "Sliding Window";
 			sourceTree = "<group>";
@@ -284,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */,
+				D0D704272F6A292B00ABE45B /* 724. Find Pivot Index.swift */,
 			);
 			path = "Prefix Sum";
 			sourceTree = "<group>";
@@ -496,6 +504,8 @@
 				FFA8C98028D6CA8D00396367 /* PriorityQueue.swift in Sources */,
 				D0AC2CA72F68D45F001AEA8A /* 1456. Maximum Number of Vowels in a Substring of Given Length.swift in Sources */,
 				D0FF8D0B2CB8B9040025DC8C /* LeetCode.swift in Sources */,
+				D0D704252F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift in Sources */,
+				D0D704282F6A292B00ABE45B /* 724. Find Pivot Index.swift in Sources */,
 				D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */,
 				D049087D28D9B737004DC9EF /* GetPrimeNoInKdecimal+KBR2022.swift in Sources */,
 				D0B7F33D2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift in Sources */,
@@ -520,6 +530,7 @@
 				D0250D4A28BCB61D00CD81D9 /* WhatIsRecursive+BaekJoon17478.swift in Sources */,
 				FFB2418728A1401B00CEDA34 /* Utilitys.swift in Sources */,
 				FF86FDDE28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift in Sources */,
+				D0D704222F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift in Sources */,
 				D0C54A3B2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift in Sources */,
 				FF200E5028A12C610018E77A /* main.swift in Sources */,
 				D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */,

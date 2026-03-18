@@ -6,7 +6,7 @@
 //
 
 import Foundation
-let test = LeetCode75.MaxConsecutiveOnesIII()
-let result = test.longestOnes([1,1,1,0,0,0,1,1,1,1,0], 2)
+let test = LeetCode75.FindPivotIndex()
+let result = test.pivotIndex([1,7,3,6,5,6])
 print(result)
 
