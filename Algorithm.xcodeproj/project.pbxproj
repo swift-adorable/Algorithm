@@ -60,6 +60,8 @@
 		D0C286792CEFF9E800FE5356 /* 61. Rotate List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C286782CEFF9E800FE5356 /* 61. Rotate List.swift */; };
 		D0C54A3B2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C54A3A2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift */; };
 		D0C54A3D2F60E5F90060A721 /* 605. Can Place Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C54A3C2F60E5F90060A721 /* 605. Can Place Flowers.swift */; };
+		D0CA2FB62F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB52F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift */; };
+		D0CA2FB82F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */; };
 		D0D704222F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */; };
 		D0D704252F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */; };
 		D0D704282F6A292B00ABE45B /* 724. Find Pivot Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704272F6A292B00ABE45B /* 724. Find Pivot Index.swift */; };
@@ -151,6 +153,8 @@
 		D0C54A3A2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431. Kids With the Greatest Number of Candies.swift"; sourceTree = "<group>"; };
 		D0C54A3C2F60E5F90060A721 /* 605. Can Place Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "605. Can Place Flowers.swift"; sourceTree = "<group>"; };
 		D0CA2FB32F6B69B300DDC598 /* Hash Map & Hash Set.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Hash Map & Hash Set.md"; sourceTree = "<group>"; };
+		D0CA2FB52F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2215. Find the Difference of Two Arrays.swift"; sourceTree = "<group>"; };
+		D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1207. Unique Number of Occurrences.swift"; sourceTree = "<group>"; };
 		D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1493. Longest Subarray of 1's After Deleting One Element.swift"; sourceTree = "<group>"; };
 		D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1732. Find the Highest Altitude.swift"; sourceTree = "<group>"; };
 		D0D704262F6A1DB300ABE45B /* Prefix Sum.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Prefix Sum.md"; sourceTree = "<group>"; };
@@ -233,11 +237,12 @@
 		D09F7E162F5FA682005EC21A /* LeetCode 75 Qs */ = {
 			isa = PBXGroup;
 			children = (
-				D0D704232F6A1CCB00ABE45B /* Prefix Sum */,
+				D0CA2FB42F6B6D8E00DDC598 /* Hash Map & Hash Set */,
 				D09F7E192F5FA721005EC21A /* LeetCode75.swift */,
 				D0C54A3E2F60E7B20060A721 /* Array, String */,
 				D077B58C2F6776A500732511 /* Two Pointers */,
 				D0AC2C9F2F68C643001AEA8A /* Sliding Window */,
+				D0D704232F6A1CCB00ABE45B /* Prefix Sum */,
 			);
 			path = "LeetCode 75 Qs";
 			sourceTree = "<group>";
@@ -287,6 +292,15 @@
 				D0B239122F63AC6A000943E9 /* 443. String Compression.swift */,
 			);
 			path = "Array, String";
+			sourceTree = "<group>";
+		};
+		D0CA2FB42F6B6D8E00DDC598 /* Hash Map & Hash Set */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA2FB52F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift */,
+				D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */,
+			);
+			path = "Hash Map & Hash Set";
 			sourceTree = "<group>";
 		};
 		D0D704232F6A1CCB00ABE45B /* Prefix Sum */ = {
@@ -503,6 +517,7 @@
 				D044099C2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift in Sources */,
 				D0BFC3772CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift in Sources */,
 				FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */,
+				D0CA2FB82F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift in Sources */,
 				FFA8C98028D6CA8D00396367 /* PriorityQueue.swift in Sources */,
 				D0AC2CA72F68D45F001AEA8A /* 1456. Maximum Number of Vowels in a Substring of Given Length.swift in Sources */,
 				D0FF8D0B2CB8B9040025DC8C /* LeetCode.swift in Sources */,
@@ -556,6 +571,7 @@
 				D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */,
 				D0AC2CA52F68CE15001AEA8A /* 643. Maximum Average Subarray I.swift in Sources */,
 				D0A667BB2CED55A90012CF78 /* 3227. Vowels Game in a String.swift in Sources */,
+				D0CA2FB62F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift in Sources */,
 				D0BFC3752CC5CFAF00189B88 /* 2516. Take K of Each Character From Left and Right.swift in Sources */,
 				D09F7E182F5FA6C4005EC21A /* 1768. Merge Strings Alternately.swift in Sources */,
 				D077B5922F678D2C00732511 /* 392. Is Subsequence.swift in Sources */,
