@@ -50,6 +50,7 @@
 		D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */; };
 		D0B239112F639712000943E9 /* 334. Increasing Triplet Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B239102F639712000943E9 /* 334. Increasing Triplet Subsequence.swift */; };
 		D0B239132F63AC6A000943E9 /* 443. String Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B239122F63AC6A000943E9 /* 443. String Compression.swift */; };
+		D0B25B0C2F711B4B00DC9D8D /* 2352. Equal Row and Column Pairs .swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B25B0B2F711B4B00DC9D8D /* 2352. Equal Row and Column Pairs .swift */; };
 		D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */; };
 		D0B7F33D2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */; };
 		D0BF366C2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BF366B2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift */; };
@@ -62,6 +63,7 @@
 		D0C54A3D2F60E5F90060A721 /* 605. Can Place Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C54A3C2F60E5F90060A721 /* 605. Can Place Flowers.swift */; };
 		D0CA2FB62F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB52F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift */; };
 		D0CA2FB82F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */; };
+		D0CA2FBA2F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB92F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift */; };
 		D0D704222F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */; };
 		D0D704252F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */; };
 		D0D704282F6A292B00ABE45B /* 724. Find Pivot Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704272F6A292B00ABE45B /* 724. Find Pivot Index.swift */; };
@@ -142,6 +144,7 @@
 		D0B13F2C28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrdinaryKnapsack+BJ12865.swift"; sourceTree = "<group>"; };
 		D0B239102F639712000943E9 /* 334. Increasing Triplet Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "334. Increasing Triplet Subsequence.swift"; sourceTree = "<group>"; };
 		D0B239122F63AC6A000943E9 /* 443. String Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "443. String Compression.swift"; sourceTree = "<group>"; };
+		D0B25B0B2F711B4B00DC9D8D /* 2352. Equal Row and Column Pairs .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2352. Equal Row and Column Pairs .swift"; sourceTree = "<group>"; };
 		D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lotto+BaekJoon6603.swift"; sourceTree = "<group>"; };
 		D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "951. Flip Equivalent Binary Trees.swift"; sourceTree = "<group>"; };
 		D0BF366B2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "74. Search a 2D Matrix.swift"; sourceTree = "<group>"; };
@@ -155,6 +158,7 @@
 		D0CA2FB32F6B69B300DDC598 /* Hash Map & Hash Set.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Hash Map & Hash Set.md"; sourceTree = "<group>"; };
 		D0CA2FB52F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2215. Find the Difference of Two Arrays.swift"; sourceTree = "<group>"; };
 		D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1207. Unique Number of Occurrences.swift"; sourceTree = "<group>"; };
+		D0CA2FB92F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1657. Determine if Two Strings Are Close.swift"; sourceTree = "<group>"; };
 		D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1493. Longest Subarray of 1's After Deleting One Element.swift"; sourceTree = "<group>"; };
 		D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1732. Find the Highest Altitude.swift"; sourceTree = "<group>"; };
 		D0D704262F6A1DB300ABE45B /* Prefix Sum.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Prefix Sum.md"; sourceTree = "<group>"; };
@@ -299,6 +303,8 @@
 			children = (
 				D0CA2FB52F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift */,
 				D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */,
+				D0CA2FB92F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift */,
+				D0B25B0B2F711B4B00DC9D8D /* 2352. Equal Row and Column Pairs .swift */,
 			);
 			path = "Hash Map & Hash Set";
 			sourceTree = "<group>";
@@ -533,10 +539,12 @@
 				D05BB2892F62880E00A649CD /* 238. Product of Array Except Self.swift in Sources */,
 				FFBF1ED228D8B5A1002598E6 /* CompetitionArchery+KBR2022.swift in Sources */,
 				D02739CC28BEE22C00C2C8C0 /* FileIO+byRhino.swift in Sources */,
+				D0B25B0C2F711B4B00DC9D8D /* 2352. Equal Row and Column Pairs .swift in Sources */,
 				D09F7E1C2F5FAB99005EC21A /* 1071. Greatest Common Divisor of Strings.swift in Sources */,
 				D0B239112F639712000943E9 /* 334. Increasing Triplet Subsequence.swift in Sources */,
 				D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */,
 				FFA8C97E28D5CCE700396367 /* TwoDimensionArray.swift in Sources */,
+				D0CA2FBA2F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift in Sources */,
 				FF8B42E628D49D7600840DA0 /* PersonalTypeTest+SW2018.swift in Sources */,
 				D0BFC3792CC86B1800189B88 /* 2514. Count Anagrams.swift in Sources */,
 				D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */,
