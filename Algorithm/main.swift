@@ -6,7 +6,7 @@
 //
 
 import Foundation
-let test = LeetCode75.EqualRowAndColumnPairs()
-let result = test.equalPairs([[3,1,2,2],[1,4,4,5],[2,4,2,2],[2,4,2,2]])
+let test = LeetCode75.DecodeString()
+let result = test.decodeString("3[a]2[bc]")
 print(result)
 

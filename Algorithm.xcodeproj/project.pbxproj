@@ -61,6 +61,9 @@
 		D0C286792CEFF9E800FE5356 /* 61. Rotate List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C286782CEFF9E800FE5356 /* 61. Rotate List.swift */; };
 		D0C54A3B2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C54A3A2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift */; };
 		D0C54A3D2F60E5F90060A721 /* 605. Can Place Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C54A3C2F60E5F90060A721 /* 605. Can Place Flowers.swift */; };
+		D0C9253B2F720DD900FC59D1 /* 2390. Removing Stars From a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C9253A2F720DD900FC59D1 /* 2390. Removing Stars From a String.swift */; };
+		D0C925422F7212B600FC59D1 /* 735. Asteroid Collision.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C925412F7212B600FC59D1 /* 735. Asteroid Collision.swift */; };
+		D0C925442F72240200FC59D1 /* 394. Decode String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C925432F72240200FC59D1 /* 394. Decode String.swift */; };
 		D0CA2FB62F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB52F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift */; };
 		D0CA2FB82F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */; };
 		D0CA2FBA2F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB92F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift */; };
@@ -155,6 +158,10 @@
 		D0C286782CEFF9E800FE5356 /* 61. Rotate List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "61. Rotate List.swift"; sourceTree = "<group>"; };
 		D0C54A3A2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431. Kids With the Greatest Number of Candies.swift"; sourceTree = "<group>"; };
 		D0C54A3C2F60E5F90060A721 /* 605. Can Place Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "605. Can Place Flowers.swift"; sourceTree = "<group>"; };
+		D0C9253A2F720DD900FC59D1 /* 2390. Removing Stars From a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2390. Removing Stars From a String.swift"; sourceTree = "<group>"; };
+		D0C925402F7210BA00FC59D1 /* reserveCapacity.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = reserveCapacity.md; sourceTree = "<group>"; };
+		D0C925412F7212B600FC59D1 /* 735. Asteroid Collision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "735. Asteroid Collision.swift"; sourceTree = "<group>"; };
+		D0C925432F72240200FC59D1 /* 394. Decode String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "394. Decode String.swift"; sourceTree = "<group>"; };
 		D0CA2FB32F6B69B300DDC598 /* Hash Map & Hash Set.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Hash Map & Hash Set.md"; sourceTree = "<group>"; };
 		D0CA2FB52F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2215. Find the Difference of Two Arrays.swift"; sourceTree = "<group>"; };
 		D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1207. Unique Number of Occurrences.swift"; sourceTree = "<group>"; };
@@ -241,12 +248,13 @@
 		D09F7E162F5FA682005EC21A /* LeetCode 75 Qs */ = {
 			isa = PBXGroup;
 			children = (
-				D0CA2FB42F6B6D8E00DDC598 /* Hash Map & Hash Set */,
+				D0C925392F720DC500FC59D1 /* Stack */,
 				D09F7E192F5FA721005EC21A /* LeetCode75.swift */,
 				D0C54A3E2F60E7B20060A721 /* Array, String */,
 				D077B58C2F6776A500732511 /* Two Pointers */,
 				D0AC2C9F2F68C643001AEA8A /* Sliding Window */,
 				D0D704232F6A1CCB00ABE45B /* Prefix Sum */,
+				D0CA2FB42F6B6D8E00DDC598 /* Hash Map & Hash Set */,
 			);
 			path = "LeetCode 75 Qs";
 			sourceTree = "<group>";
@@ -296,6 +304,32 @@
 				D0B239122F63AC6A000943E9 /* 443. String Compression.swift */,
 			);
 			path = "Array, String";
+			sourceTree = "<group>";
+		};
+		D0C925392F720DC500FC59D1 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9253A2F720DD900FC59D1 /* 2390. Removing Stars From a String.swift */,
+				D0C925412F7212B600FC59D1 /* 735. Asteroid Collision.swift */,
+				D0C925432F72240200FC59D1 /* 394. Decode String.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		D0C9253C2F72103500FC59D1 /* Method Description */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9253D2F72109200FC59D1 /* Memory Optimization */,
+			);
+			path = "Method Description";
+			sourceTree = "<group>";
+		};
+		D0C9253D2F72109200FC59D1 /* Memory Optimization */ = {
+			isa = PBXGroup;
+			children = (
+				D0C925402F7210BA00FC59D1 /* reserveCapacity.md */,
+			);
+			path = "Memory Optimization";
 			sourceTree = "<group>";
 		};
 		D0CA2FB42F6B6D8E00DDC598 /* Hash Map & Hash Set */ = {
@@ -351,6 +385,7 @@
 		FF200E4328A12C610018E77A = {
 			isa = PBXGroup;
 			children = (
+				D0C9253C2F72103500FC59D1 /* Method Description */,
 				D09F7E292F5FAC8C005EC21A /* Theory */,
 				D074855428D8041E00E60024 /* Extensions */,
 				FF200E5A28A12FEB0018E77A /* Utils */,
@@ -517,6 +552,7 @@
 				D05BB2872F623ED800A649CD /* 151. Reverse Words in a String.swift in Sources */,
 				D01C83E828B4B95B0059B2D7 /* Z+BaekJoon1074.swift in Sources */,
 				D0C54A3D2F60E5F90060A721 /* 605. Can Place Flowers.swift in Sources */,
+				D0C925422F7212B600FC59D1 /* 735. Asteroid Collision.swift in Sources */,
 				D0B0C0742CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift in Sources */,
 				D08F3AEE2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift in Sources */,
 				D02A131428DBE34E000742FF /* SheepAndWolf+KBR2022.swift in Sources */,
@@ -543,6 +579,8 @@
 				D09F7E1C2F5FAB99005EC21A /* 1071. Greatest Common Divisor of Strings.swift in Sources */,
 				D0B239112F639712000943E9 /* 334. Increasing Triplet Subsequence.swift in Sources */,
 				D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */,
+				D0C9253B2F720DD900FC59D1 /* 2390. Removing Stars From a String.swift in Sources */,
+				D0C925442F72240200FC59D1 /* 394. Decode String.swift in Sources */,
 				FFA8C97E28D5CCE700396367 /* TwoDimensionArray.swift in Sources */,
 				D0CA2FBA2F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift in Sources */,
 				FF8B42E628D49D7600840DA0 /* PersonalTypeTest+SW2018.swift in Sources */,
