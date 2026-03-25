@@ -43,6 +43,9 @@
 		D09F7E1C2F5FAB99005EC21A /* 1071. Greatest Common Divisor of Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09F7E1B2F5FAB99005EC21A /* 1071. Greatest Common Divisor of Strings.swift */; };
 		D0A667BB2CED55A90012CF78 /* 3227. Vowels Game in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A667BA2CED55A90012CF78 /* 3227. Vowels Game in a String.swift */; };
 		D0A8F6A52CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */; };
+		D0A9095C2F73526200980C61 /* 933. Number of Recent Calls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9095B2F73526200980C61 /* 933. Number of Recent Calls.swift */; };
+		D0A9095E2F736B3200980C61 /* 649. Dota2 Senate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9095D2F736B3200980C61 /* 649. Dota2 Senate.swift */; };
+		D0A909602F7371B600980C61 /* removeFirst vs Pointer.md in Sources */ = {isa = PBXBuildFile; fileRef = D0A9095F2F7371B600980C61 /* removeFirst vs Pointer.md */; };
 		D0AC2CA52F68CE15001AEA8A /* 643. Maximum Average Subarray I.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC2CA42F68CE15001AEA8A /* 643. Maximum Average Subarray I.swift */; };
 		D0AC2CA72F68D45F001AEA8A /* 1456. Maximum Number of Vowels in a Substring of Given Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC2CA62F68D45F001AEA8A /* 1456. Maximum Number of Vowels in a Substring of Given Length.swift */; };
 		D0AC2CA92F68DC6E001AEA8A /* 1004. Max Consecutive Ones III.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC2CA82F68DC6E001AEA8A /* 1004. Max Consecutive Ones III.swift */; };
@@ -140,6 +143,9 @@
 		D09F7E2A2F5FAC96005EC21A /* Greatest Common Divisor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Greatest Common Divisor.md"; sourceTree = "<group>"; };
 		D0A667BA2CED55A90012CF78 /* 3227. Vowels Game in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3227. Vowels Game in a String.swift"; sourceTree = "<group>"; };
 		D0A8F6A42CEC1ACE00B62D5B /* 438. Find All Anagrams in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "438. Find All Anagrams in a String.swift"; sourceTree = "<group>"; };
+		D0A9095B2F73526200980C61 /* 933. Number of Recent Calls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "933. Number of Recent Calls.swift"; sourceTree = "<group>"; };
+		D0A9095D2F736B3200980C61 /* 649. Dota2 Senate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "649. Dota2 Senate.swift"; sourceTree = "<group>"; };
+		D0A9095F2F7371B600980C61 /* removeFirst vs Pointer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "removeFirst vs Pointer.md"; sourceTree = "<group>"; };
 		D0AC2CA42F68CE15001AEA8A /* 643. Maximum Average Subarray I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "643. Maximum Average Subarray I.swift"; sourceTree = "<group>"; };
 		D0AC2CA62F68D45F001AEA8A /* 1456. Maximum Number of Vowels in a Substring of Given Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1456. Maximum Number of Vowels in a Substring of Given Length.swift"; sourceTree = "<group>"; };
 		D0AC2CA82F68DC6E001AEA8A /* 1004. Max Consecutive Ones III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1004. Max Consecutive Ones III.swift"; sourceTree = "<group>"; };
@@ -248,13 +254,14 @@
 		D09F7E162F5FA682005EC21A /* LeetCode 75 Qs */ = {
 			isa = PBXGroup;
 			children = (
-				D0C925392F720DC500FC59D1 /* Stack */,
 				D09F7E192F5FA721005EC21A /* LeetCode75.swift */,
 				D0C54A3E2F60E7B20060A721 /* Array, String */,
 				D077B58C2F6776A500732511 /* Two Pointers */,
 				D0AC2C9F2F68C643001AEA8A /* Sliding Window */,
 				D0D704232F6A1CCB00ABE45B /* Prefix Sum */,
 				D0CA2FB42F6B6D8E00DDC598 /* Hash Map & Hash Set */,
+				D0C925392F720DC500FC59D1 /* Stack */,
+				D0A9095A2F73524D00980C61 /* Queue */,
 			);
 			path = "LeetCode 75 Qs";
 			sourceTree = "<group>";
@@ -269,6 +276,24 @@
 				D09F7E272F5FAC81005EC21A /* Two Pointer vs Sliding Window.md */,
 			);
 			path = Theory;
+			sourceTree = "<group>";
+		};
+		D0A9095A2F73524D00980C61 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				D0A9095B2F73526200980C61 /* 933. Number of Recent Calls.swift */,
+				D0A9095D2F736B3200980C61 /* 649. Dota2 Senate.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		D0A909622F7372F300980C61 /* Memory and Resource Optimization */ = {
+			isa = PBXGroup;
+			children = (
+				D0C925402F7210BA00FC59D1 /* reserveCapacity.md */,
+				D0A9095F2F7371B600980C61 /* removeFirst vs Pointer.md */,
+			);
+			path = "Memory and Resource Optimization";
 			sourceTree = "<group>";
 		};
 		D0AC2C9F2F68C643001AEA8A /* Sliding Window */ = {
@@ -319,17 +344,9 @@
 		D0C9253C2F72103500FC59D1 /* Method Description */ = {
 			isa = PBXGroup;
 			children = (
-				D0C9253D2F72109200FC59D1 /* Memory Optimization */,
+				D0A909622F7372F300980C61 /* Memory and Resource Optimization */,
 			);
 			path = "Method Description";
-			sourceTree = "<group>";
-		};
-		D0C9253D2F72109200FC59D1 /* Memory Optimization */ = {
-			isa = PBXGroup;
-			children = (
-				D0C925402F7210BA00FC59D1 /* reserveCapacity.md */,
-			);
-			path = "Memory Optimization";
 			sourceTree = "<group>";
 		};
 		D0CA2FB42F6B6D8E00DDC598 /* Hash Map & Hash Set */ = {
@@ -547,6 +564,7 @@
 				D0B239132F63AC6A000943E9 /* 443. String Compression.swift in Sources */,
 				D032FB112CF999FE00A20614 /* 1498. Number of Subsequences That Satisfy the Given Sum Condition.swift in Sources */,
 				D077B5902F6776CB00732511 /* 283. Move Zeroes.swift in Sources */,
+				D0A9095C2F73526200980C61 /* 933. Number of Recent Calls.swift in Sources */,
 				D025238728D843C7002FE508 /* ReceiveReportResult+KBR2022.swift in Sources */,
 				FFEAD7BE28D1675700DA5DD3 /* BinaryTree.swift in Sources */,
 				D05BB2872F623ED800A649CD /* 151. Reverse Words in a String.swift in Sources */,
@@ -594,6 +612,7 @@
 				FFB2418728A1401B00CEDA34 /* Utilitys.swift in Sources */,
 				FF86FDDE28A28D9C000232AE /* PrintingStar+BaekJoon2447.swift in Sources */,
 				D0D704222F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift in Sources */,
+				D0A9095E2F736B3200980C61 /* 649. Dota2 Senate.swift in Sources */,
 				D0C54A3B2F60E3F90060A721 /* 1431. Kids With the Greatest Number of Candies.swift in Sources */,
 				FF200E5028A12C610018E77A /* main.swift in Sources */,
 				D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */,
@@ -613,6 +632,7 @@
 				D0C286792CEFF9E800FE5356 /* 61. Rotate List.swift in Sources */,
 				FFA8C98228D7669600396367 /* StudyCodingTest+KI2022.swift in Sources */,
 				D02A131228DBDDB2000742FF /* IndestructibleBuilding+KBR2022.swift in Sources */,
+				D0A909602F7371B600980C61 /* removeFirst vs Pointer.md in Sources */,
 				D09C044B2DF8F63B00BDC2AE /*   Remove Duplicates from Sorted Array  .swift in Sources */,
 				D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */,
 				D0AC2CA52F68CE15001AEA8A /* 643. Maximum Average Subarray I.swift in Sources */,

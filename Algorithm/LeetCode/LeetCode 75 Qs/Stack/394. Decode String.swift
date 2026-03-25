@@ -10,49 +10,32 @@ import Foundation
 extension LeetCode75 {
     class DecodeString {
         func decodeString(_ s: String) -> String {
-            var characters = s.map { $0 }
-            var decodedString: String = ""
-            var currentNumber: Int = 0
+            var buffer: [(subString: String, repeat: Int)] = []
+            var subString = ""
+            var k = 0
             
-            for idx in 0..<characters.count {
-                
-                let char = characters[idx]
-                
-                if char == "]" { continue }
+            for char in s {
                 
                 if char.isNumber {
-                    let decoded = decoded(&characters)
-                    decodedString.append(decoded)
-                    continue
+                    k = k * 10 + Int(String(char))!
+                    
+                } else if char == "[" {
+                    buffer.append((subString, k))
+                    subString = ""
+                    k = 0
+                    
+                } else if char == "]" && buffer.isEmpty == false {
+                    let last = buffer.removeLast()
+                    subString = last.subString + String(repeating: subString, count: last.repeat)
+                    
+                } else {
+                    subString.append(char)
                 }
                 
-                decodedString.append(char)
             }
             
-            return decodedString
+            return subString
         }
         
-        func decoded(_ chars: inout [Character]) -> String {
-            
-//            if char.isNumber {
-//                currentNumber = char.wholeNumberValue ?? 0
-//                continue
-//            }
-//            
-//            if char == "[" {
-//                var buffer = ""
-//                var idx = idx+1
-//                while characters[idx] != "]" {
-//                    buffer.append(characters[idx])
-//                    characters[idx] = "]"
-//                    idx += 1
-//                }
-//                for _ in 0..<currentNumber {
-//                    decodedString += buffer
-//                }
-//                continue
-//            }
-            
-        }
     }
 }

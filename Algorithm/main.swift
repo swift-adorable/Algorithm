@@ -6,7 +6,7 @@
 //
 
 import Foundation
-let test = LeetCode75.DecodeString()
-let result = test.decodeString("3[a]2[bc]")
+let test = LeetCode75.Dota2Senate()
+let result = test.predictPartyVictory("RDDR")
 print(result)
 
