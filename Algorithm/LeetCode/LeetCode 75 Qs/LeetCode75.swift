@@ -7,6 +7,4 @@
 
 import Foundation
 
-final class LeetCode75 {
-    
-}
+final class LeetCode75 { }
