@@ -25,6 +25,7 @@
 		D05BB2852F623A9400A649CD /* 345. Reverse Vowels of a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BB2842F623A9400A649CD /* 345. Reverse Vowels of a String.swift */; };
 		D05BB2872F623ED800A649CD /* 151. Reverse Words in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BB2862F623ED800A649CD /* 151. Reverse Words in a String.swift */; };
 		D05BB2892F62880E00A649CD /* 238. Product of Array Except Self.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BB2882F62880E00A649CD /* 238. Product of Array Except Self.swift */; };
+		D0604E8B2F8DBDF000B65CC3 /* 1161. Maximum Level Sum of a Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0604E8A2F8DBDF000B65CC3 /* 1161. Maximum Level Sum of a Binary Tree.swift */; };
 		D07414202F88877B00113026 /* 236. Lowest Common Ancestor of a Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074141F2F88877B00113026 /* 236. Lowest Common Ancestor of a Binary Tree.swift */; };
 		D077B5902F6776CB00732511 /* 283. Move Zeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077B58F2F6776CB00732511 /* 283. Move Zeroes.swift */; };
 		D077B5922F678D2C00732511 /* 392. Is Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077B5912F678D2C00732511 /* 392. Is Subsequence.swift */; };
@@ -82,6 +83,7 @@
 		D0CA2FB62F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB52F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift */; };
 		D0CA2FB82F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */; };
 		D0CA2FBA2F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB92F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift */; };
+		D0CE7D5C2F8CA6D6002613E4 /* 199. Binary Tree Right Side View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE7D5B2F8CA6D6002613E4 /* 199. Binary Tree Right Side View.swift */; };
 		D0D704222F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */; };
 		D0D704252F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */; };
 		D0D704282F6A292B00ABE45B /* 724. Find Pivot Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704272F6A292B00ABE45B /* 724. Find Pivot Index.swift */; };
@@ -134,6 +136,7 @@
 		D05BB2842F623A9400A649CD /* 345. Reverse Vowels of a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "345. Reverse Vowels of a String.swift"; sourceTree = "<group>"; };
 		D05BB2862F623ED800A649CD /* 151. Reverse Words in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151. Reverse Words in a String.swift"; sourceTree = "<group>"; };
 		D05BB2882F62880E00A649CD /* 238. Product of Array Except Self.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "238. Product of Array Except Self.swift"; sourceTree = "<group>"; };
+		D0604E8A2F8DBDF000B65CC3 /* 1161. Maximum Level Sum of a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1161. Maximum Level Sum of a Binary Tree.swift"; sourceTree = "<group>"; };
 		D074141F2F88877B00113026 /* 236. Lowest Common Ancestor of a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "236. Lowest Common Ancestor of a Binary Tree.swift"; sourceTree = "<group>"; };
 		D077B58F2F6776CB00732511 /* 283. Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. Move Zeroes.swift"; sourceTree = "<group>"; };
 		D077B5912F678D2C00732511 /* 392. Is Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "392. Is Subsequence.swift"; sourceTree = "<group>"; };
@@ -196,6 +199,7 @@
 		D0CA2FB52F6B6DBE00DDC598 /* 2215. Find the Difference of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2215. Find the Difference of Two Arrays.swift"; sourceTree = "<group>"; };
 		D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1207. Unique Number of Occurrences.swift"; sourceTree = "<group>"; };
 		D0CA2FB92F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1657. Determine if Two Strings Are Close.swift"; sourceTree = "<group>"; };
+		D0CE7D5B2F8CA6D6002613E4 /* 199. Binary Tree Right Side View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "199. Binary Tree Right Side View.swift"; sourceTree = "<group>"; };
 		D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1493. Longest Subarray of 1's After Deleting One Element.swift"; sourceTree = "<group>"; };
 		D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1732. Find the Highest Altitude.swift"; sourceTree = "<group>"; };
 		D0D704262F6A1DB300ABE45B /* Prefix Sum.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Prefix Sum.md"; sourceTree = "<group>"; };
@@ -289,6 +293,7 @@
 				D0A9095A2F73524D00980C61 /* Queue */,
 				D0BA57602F7B40F8001375E1 /* Linked List */,
 				D0C8E1132F860CE40083DB61 /* Binary Tree - DFS */,
+				D0CE7D5A2F8CA6CA002613E4 /* Binary Tree - BFS  */,
 			);
 			path = "LeetCode 75 Qs";
 			sourceTree = "<group>";
@@ -447,6 +452,15 @@
 				D0B25B0B2F711B4B00DC9D8D /* 2352. Equal Row and Column Pairs .swift */,
 			);
 			path = "Hash Map & Hash Set";
+			sourceTree = "<group>";
+		};
+		D0CE7D5A2F8CA6CA002613E4 /* Binary Tree - BFS  */ = {
+			isa = PBXGroup;
+			children = (
+				D0CE7D5B2F8CA6D6002613E4 /* 199. Binary Tree Right Side View.swift */,
+				D0604E8A2F8DBDF000B65CC3 /* 1161. Maximum Level Sum of a Binary Tree.swift */,
+			);
+			path = "Binary Tree - BFS ";
 			sourceTree = "<group>";
 		};
 		D0D704232F6A1CCB00ABE45B /* Prefix Sum */ = {
@@ -647,6 +661,7 @@
 				D0BA57642F7B47DC001375E1 /* 2095. Delete the Middle Node of a Linked List.swift in Sources */,
 				D02A131428DBE34E000742FF /* SheepAndWolf+KBR2022.swift in Sources */,
 				D044099C2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift in Sources */,
+				D0CE7D5C2F8CA6D6002613E4 /* 199. Binary Tree Right Side View.swift in Sources */,
 				D0BFC3772CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift in Sources */,
 				FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */,
 				D0CA2FB82F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift in Sources */,
@@ -680,6 +695,7 @@
 				FF8B42E628D49D7600840DA0 /* PersonalTypeTest+SW2018.swift in Sources */,
 				D0BFC3792CC86B1800189B88 /* 2514. Count Anagrams.swift in Sources */,
 				D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */,
+				D0604E8B2F8DBDF000B65CC3 /* 1161. Maximum Level Sum of a Binary Tree.swift in Sources */,
 				D0C8E1172F8610A20083DB61 /* 872. Leaf-Similar Trees.swift in Sources */,
 				D09962922CE31BF700B505E3 /* 219. Contains Duplicate II.swift in Sources */,
 				D0BF366C2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift in Sources */,
