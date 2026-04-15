@@ -84,6 +84,8 @@
 		D0CA2FB82F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */; };
 		D0CA2FBA2F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA2FB92F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift */; };
 		D0CE7D5C2F8CA6D6002613E4 /* 199. Binary Tree Right Side View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CE7D5B2F8CA6D6002613E4 /* 199. Binary Tree Right Side View.swift */; };
+		D0D094162F8F160700BDA5CC /* 700. Search in a Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D094152F8F160700BDA5CC /* 700. Search in a Binary Search Tree.swift */; };
+		D0D094182F8F176900BDA5CC /* 450. Delete Node in a BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D094172F8F176900BDA5CC /* 450. Delete Node in a BST.swift */; };
 		D0D704222F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */; };
 		D0D704252F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */; };
 		D0D704282F6A292B00ABE45B /* 724. Find Pivot Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704272F6A292B00ABE45B /* 724. Find Pivot Index.swift */; };
@@ -200,6 +202,8 @@
 		D0CA2FB72F6B71C800DDC598 /* 1207. Unique Number of Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1207. Unique Number of Occurrences.swift"; sourceTree = "<group>"; };
 		D0CA2FB92F6B789D00DDC598 /* 1657. Determine if Two Strings Are Close.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1657. Determine if Two Strings Are Close.swift"; sourceTree = "<group>"; };
 		D0CE7D5B2F8CA6D6002613E4 /* 199. Binary Tree Right Side View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "199. Binary Tree Right Side View.swift"; sourceTree = "<group>"; };
+		D0D094152F8F160700BDA5CC /* 700. Search in a Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "700. Search in a Binary Search Tree.swift"; sourceTree = "<group>"; };
+		D0D094172F8F176900BDA5CC /* 450. Delete Node in a BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "450. Delete Node in a BST.swift"; sourceTree = "<group>"; };
 		D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1493. Longest Subarray of 1's After Deleting One Element.swift"; sourceTree = "<group>"; };
 		D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1732. Find the Highest Altitude.swift"; sourceTree = "<group>"; };
 		D0D704262F6A1DB300ABE45B /* Prefix Sum.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Prefix Sum.md"; sourceTree = "<group>"; };
@@ -294,6 +298,7 @@
 				D0BA57602F7B40F8001375E1 /* Linked List */,
 				D0C8E1132F860CE40083DB61 /* Binary Tree - DFS */,
 				D0CE7D5A2F8CA6CA002613E4 /* Binary Tree - BFS  */,
+				D0D094142F8F15F800BDA5CC /* Binary Search Tree */,
 			);
 			path = "LeetCode 75 Qs";
 			sourceTree = "<group>";
@@ -461,6 +466,15 @@
 				D0604E8A2F8DBDF000B65CC3 /* 1161. Maximum Level Sum of a Binary Tree.swift */,
 			);
 			path = "Binary Tree - BFS ";
+			sourceTree = "<group>";
+		};
+		D0D094142F8F15F800BDA5CC /* Binary Search Tree */ = {
+			isa = PBXGroup;
+			children = (
+				D0D094152F8F160700BDA5CC /* 700. Search in a Binary Search Tree.swift */,
+				D0D094172F8F176900BDA5CC /* 450. Delete Node in a BST.swift */,
+			);
+			path = "Binary Search Tree";
 			sourceTree = "<group>";
 		};
 		D0D704232F6A1CCB00ABE45B /* Prefix Sum */ = {
@@ -661,6 +675,7 @@
 				D0BA57642F7B47DC001375E1 /* 2095. Delete the Middle Node of a Linked List.swift in Sources */,
 				D02A131428DBE34E000742FF /* SheepAndWolf+KBR2022.swift in Sources */,
 				D044099C2CBC8E090090A429 /* 1592. Rearrange Spaces Between Words.swift in Sources */,
+				D0D094162F8F160700BDA5CC /* 700. Search in a Binary Search Tree.swift in Sources */,
 				D0CE7D5C2F8CA6D6002613E4 /* 199. Binary Tree Right Side View.swift in Sources */,
 				D0BFC3772CC71A5000189B88 /* 2351. First Letter to Appear Twice.swift in Sources */,
 				FF200E5728A12E770018E77A /* GreatestCommonDivisor.swift in Sources */,
@@ -697,6 +712,7 @@
 				D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */,
 				D0604E8B2F8DBDF000B65CC3 /* 1161. Maximum Level Sum of a Binary Tree.swift in Sources */,
 				D0C8E1172F8610A20083DB61 /* 872. Leaf-Similar Trees.swift in Sources */,
+				D0D094182F8F176900BDA5CC /* 450. Delete Node in a BST.swift in Sources */,
 				D09962922CE31BF700B505E3 /* 219. Contains Duplicate II.swift in Sources */,
 				D0BF366C2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift in Sources */,
 				D09F7E1A2F5FA721005EC21A /* LeetCode75.swift in Sources */,
