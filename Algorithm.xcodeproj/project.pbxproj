@@ -63,6 +63,7 @@
 		D0B25B0C2F711B4B00DC9D8D /* 2352. Equal Row and Column Pairs .swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B25B0B2F711B4B00DC9D8D /* 2352. Equal Row and Column Pairs .swift */; };
 		D0B2D0CC28A8995100B5E01A /* Lotto+BaekJoon6603.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */; };
 		D0B7F33D2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */; };
+		D0B8D5DC2FAD550A006443CC /* 399. Evaluate Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8D5DB2FAD550A006443CC /* 399. Evaluate Division.swift */; };
 		D0BA57622F7B4115001375E1 /* 206. Reverse Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA57612F7B4115001375E1 /* 206. Reverse Linked List.swift */; };
 		D0BA57642F7B47DC001375E1 /* 2095. Delete the Middle Node of a Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA57632F7B47DC001375E1 /* 2095. Delete the Middle Node of a Linked List.swift */; };
 		D0BF366C2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BF366B2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift */; };
@@ -182,6 +183,7 @@
 		D0B25B0B2F711B4B00DC9D8D /* 2352. Equal Row and Column Pairs .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2352. Equal Row and Column Pairs .swift"; sourceTree = "<group>"; };
 		D0B2D0CB28A8995100B5E01A /* Lotto+BaekJoon6603.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lotto+BaekJoon6603.swift"; sourceTree = "<group>"; };
 		D0B7F33C2CDD9028003AA7DA /* 951. Flip Equivalent Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "951. Flip Equivalent Binary Trees.swift"; sourceTree = "<group>"; };
+		D0B8D5DB2FAD550A006443CC /* 399. Evaluate Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "399. Evaluate Division.swift"; sourceTree = "<group>"; };
 		D0BA57612F7B4115001375E1 /* 206. Reverse Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. Reverse Linked List.swift"; sourceTree = "<group>"; };
 		D0BA57632F7B47DC001375E1 /* 2095. Delete the Middle Node of a Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2095. Delete the Middle Node of a Linked List.swift"; sourceTree = "<group>"; };
 		D0BF366B2CEEA42400C50ADE /* 74. Search a 2D Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "74. Search a 2D Matrix.swift"; sourceTree = "<group>"; };
@@ -278,6 +280,7 @@
 				D080A3EA2F91C3C100ED3E0B /* 841. Keys and Rooms.swift */,
 				D02B61892F9AEA8F001922E4 /* 547. Number of Provinces.swift */,
 				D0AD8C032FAAB6C700FEE148 /* 1466. Reorder Routes to Make All Paths.swift */,
+				D0B8D5DB2FAD550A006443CC /* 399. Evaluate Division.swift */,
 			);
 			path = "Graphs - DFS";
 			sourceTree = "<group>";
@@ -758,6 +761,7 @@
 				D032FB0D2CF98A7300A20614 /* 1480. Running Sum of 1d Array.swift in Sources */,
 				D0C286772CEFF46800FE5356 /* 1108. Defanging an IP Address.swift in Sources */,
 				D080A3EB2F91C3C100ED3E0B /* 841. Keys and Rooms.swift in Sources */,
+				D0B8D5DC2FAD550A006443CC /* 399. Evaluate Division.swift in Sources */,
 				D0C068C32F7C951300D7ABBD /* 2130. Maximum Twin Sum of a Linked List.swift in Sources */,
 				D0C286792CEFF9E800FE5356 /* 61. Rotate List.swift in Sources */,
 				FFA8C98228D7669600396367 /* StudyCodingTest+KI2022.swift in Sources */,
