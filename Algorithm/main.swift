@@ -6,6 +6,6 @@
 //
 
 import Foundation
-let test = LeetCode75.ReorderRoutesToMakeAllPaths()
-let result = test.minReorder(6, [[0,1],[1,3],[2,3],[4,0],[4,5]])
+let test = LeetCode75.NearestExitFromEntranceInMaze()
+let result = test.nearestExit([["+","+",".","+"],[".",".",".","+"],["+","+","+","."]], [1,2])
 print(result)

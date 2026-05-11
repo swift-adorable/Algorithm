@@ -93,6 +93,8 @@
 		D0D704222F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704212F6A163600ABE45B /* 1493. Longest Subarray of 1's After Deleting One Element.swift */; };
 		D0D704252F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */; };
 		D0D704282F6A292B00ABE45B /* 724. Find Pivot Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D704272F6A292B00ABE45B /* 724. Find Pivot Index.swift */; };
+		D0FDC9B32FB14F12001B7426 /* 1926. Nearest Exit from Entrance in Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FDC9B22FB14F12001B7426 /* 1926. Nearest Exit from Entrance in Maze.swift */; };
+		D0FDC9B52FB1779A001B7426 /* 994. Rotting Oranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FDC9B42FB1779A001B7426 /* 994. Rotting Oranges.swift */; };
 		D0FF8D092CB8B7760025DC8C /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */; };
 		D0FF8D0B2CB8B9040025DC8C /* LeetCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */; };
 		FF200E5028A12C610018E77A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF200E4F28A12C610018E77A /* main.swift */; };
@@ -216,6 +218,8 @@
 		D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1732. Find the Highest Altitude.swift"; sourceTree = "<group>"; };
 		D0D704262F6A1DB300ABE45B /* Prefix Sum.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Prefix Sum.md"; sourceTree = "<group>"; };
 		D0D704272F6A292B00ABE45B /* 724. Find Pivot Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "724. Find Pivot Index.swift"; sourceTree = "<group>"; };
+		D0FDC9B22FB14F12001B7426 /* 1926. Nearest Exit from Entrance in Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1926. Nearest Exit from Entrance in Maze.swift"; sourceTree = "<group>"; };
+		D0FDC9B42FB1779A001B7426 /* 994. Rotting Oranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "994. Rotting Oranges.swift"; sourceTree = "<group>"; };
 		D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
 		D0FF8D0A2CB8B9040025DC8C /* LeetCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode.swift; sourceTree = "<group>"; };
 		FF200E4C28A12C610018E77A /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -319,6 +323,7 @@
 				D0CE7D5A2F8CA6CA002613E4 /* Binary Tree - BFS  */,
 				D0D094142F8F15F800BDA5CC /* Binary Search Tree */,
 				D080A3E92F91C2D700ED3E0B /* Graphs - DFS */,
+				D0FDC9B12FB14EF4001B7426 /* Graphs - BFS */,
 			);
 			path = "LeetCode 75 Qs";
 			sourceTree = "<group>";
@@ -504,6 +509,15 @@
 				D0D704272F6A292B00ABE45B /* 724. Find Pivot Index.swift */,
 			);
 			path = "Prefix Sum";
+			sourceTree = "<group>";
+		};
+		D0FDC9B12FB14EF4001B7426 /* Graphs - BFS */ = {
+			isa = PBXGroup;
+			children = (
+				D0FDC9B22FB14F12001B7426 /* 1926. Nearest Exit from Entrance in Maze.swift */,
+				D0FDC9B42FB1779A001B7426 /* 994. Rotting Oranges.swift */,
+			);
+			path = "Graphs - BFS";
 			sourceTree = "<group>";
 		};
 		D0FF8D072CB8B73E0025DC8C /* LeetCode */ = {
@@ -722,6 +736,7 @@
 				D09F7E1C2F5FAB99005EC21A /* 1071. Greatest Common Divisor of Strings.swift in Sources */,
 				D0B239112F639712000943E9 /* 334. Increasing Triplet Subsequence.swift in Sources */,
 				D0B13F2D28C5D7C20012DD19 /* OrdinaryKnapsack+BJ12865.swift in Sources */,
+				D0FDC9B52FB1779A001B7426 /* 994. Rotting Oranges.swift in Sources */,
 				D0C9253B2F720DD900FC59D1 /* 2390. Removing Stars From a String.swift in Sources */,
 				D0C925442F72240200FC59D1 /* 394. Decode String.swift in Sources */,
 				D0C8E1122F85D1E20083DB61 /* ListNode.swift in Sources */,
@@ -750,6 +765,7 @@
 				D085CC442CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift in Sources */,
 				D02C957C28B5A1F900A16F77 /* MakeConfetti+BaekJoon2630.swift in Sources */,
 				D08F3AEC2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift in Sources */,
+				D0FDC9B32FB14F12001B7426 /* 1926. Nearest Exit from Entrance in Maze.swift in Sources */,
 				FF765E8228D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift in Sources */,
 				D077B5942F67901300732511 /* 11. Container With Most Water.swift in Sources */,
 				D01D04D42CF4034400A938A8 /* 781. Rabbits in Forest.swift in Sources */,
