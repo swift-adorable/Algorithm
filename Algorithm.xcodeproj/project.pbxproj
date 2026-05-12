@@ -218,6 +218,7 @@
 		D0D704242F6A1CE800ABE45B /* 1732. Find the Highest Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1732. Find the Highest Altitude.swift"; sourceTree = "<group>"; };
 		D0D704262F6A1DB300ABE45B /* Prefix Sum.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Prefix Sum.md"; sourceTree = "<group>"; };
 		D0D704272F6A292B00ABE45B /* 724. Find Pivot Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "724. Find Pivot Index.swift"; sourceTree = "<group>"; };
+		D0DB061E2FB2B0CF000681DC /* Heap & Priority Queue.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Heap & Priority Queue.md"; sourceTree = "<group>"; };
 		D0FDC9B22FB14F12001B7426 /* 1926. Nearest Exit from Entrance in Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1926. Nearest Exit from Entrance in Maze.swift"; sourceTree = "<group>"; };
 		D0FDC9B42FB1779A001B7426 /* 994. Rotting Oranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "994. Rotting Oranges.swift"; sourceTree = "<group>"; };
 		D0FF8D082CB8B7760025DC8C /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
@@ -336,6 +337,7 @@
 				D0D704262F6A1DB300ABE45B /* Prefix Sum.md */,
 				D09F7E262F5FAC81005EC21A /* Reference vs Copy.md */,
 				D09F7E272F5FAC81005EC21A /* Two Pointer vs Sliding Window.md */,
+				D0DB061E2FB2B0CF000681DC /* Heap & Priority Queue.md */,
 			);
 			path = Theory;
 			sourceTree = "<group>";
