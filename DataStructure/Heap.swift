@@ -21,97 +21,74 @@ import Foundation
  
  */
 
-struct Heap<T: Comparable> {
-    private var elements: [T] = []
-    private let sortFunction: (T, T) -> Bool
-    
-    var isEmpty: Bool {
-        return self.elements.count == 1
+struct Heap<T> {
+    private(set) var nodes: [T] = []
+    private let comparer: (T, T) -> Bool
+
+    var isEmpty: Bool { nodes.isEmpty }
+    var count: Int { nodes.count }
+
+    // comparer: (parent, child) -> Bool
+    // 최소 힙: < , 최대 힙: >
+    init(comparer: @escaping (T, T) -> Bool) {
+        self.comparer = comparer
     }
-    
-    var peek: T? {
-        if self.isEmpty { return nil }
-        return self.elements.last!
+
+    /// 루트 노드
+    func peek() -> T? {
+        nodes.first
     }
-    
-    var count: Int {
-        return self.elements.count - 1
+
+    mutating func insert(_ element: T) {
+        nodes.append(element)
+        siftUp(from: nodes.count - 1)
     }
-    
-    init(elements: [T] = [], sortFunction: @escaping (T, T) -> Bool) {
-        if !elements.isEmpty {
-            self.elements = [elements.first!] + elements
-        } else {
-            self.elements = elements
-        }
-        self.sortFunction = sortFunction
-        if elements.count > 1 {
-            self.buildHeap()
-        }
-    }
-    
-    func leftChild(of index: Int) -> Int {
-        return index * 2
-    }
-    
-    func rightChild(of index: Int) -> Int {
-        return index * 2 + 1
-    }
-    
-    func parent(of index: Int) -> Int {
-        return (index) / 2
-    }
-    
-    mutating func add(element: T) {
-        self.elements.append(element)
-    }
-    
-    mutating func diveDown(from index: Int) {
-        var higherPriority = index
-        let leftIndex = self.leftChild(of: index)
-        let rightIndex = self.rightChild(of: index)
+
+    /// 루트 노드 제거
+    mutating func pop() -> T? {
+        guard !nodes.isEmpty else { return nil }
+        if nodes.count == 1 { return nodes.removeFirst() }
         
-        if leftIndex < self.elements.endIndex && self.sortFunction(self.elements[leftIndex], self.elements[higherPriority]) {
-            higherPriority = leftIndex
-        }
-        if rightIndex < self.elements.endIndex && self.sortFunction(self.elements[rightIndex], self.elements[higherPriority]) {
-            higherPriority = rightIndex
-        }
-        if higherPriority != index {
-            self.elements.swapAt(higherPriority, index)
-            self.diveDown(from: higherPriority)
-        }
-    }
-    
-    mutating func swimUp(from index: Int) {
-        var index = index
-        while index != 1 && self.sortFunction(self.elements[index], self.elements[self.parent(of: index)]) {
-            self.elements.swapAt(index, self.parent(of: index))
-            index = self.parent(of: index)
-        }
-    }
-    
-    mutating func buildHeap() {
-        for index in (1...(self.elements.count / 2)).reversed() {
-            self.diveDown(from: index)
-        }
-    }
-    
-    mutating func insert(node: T) {
-        if self.elements.isEmpty {
-            self.elements.append(node)
-        }
-        self.elements.append(node)
-        self.swimUp(from: self.elements.endIndex - 1)
-    }
-    
-    mutating func remove() -> T? {
-        if self.isEmpty { return nil }
-        self.elements.swapAt(1, elements.endIndex - 1)
-        let deleted = elements.removeLast()
-        self.diveDown(from: 1)
+        let result = nodes[0]
+        nodes[0] = nodes.removeLast()
+        siftDown(from: 0)
         
-        return deleted
+        return result
     }
-    
+
+    /// 삽입 시: 아래에서 위로 재배치 (Sift Up)
+    private mutating func siftUp(from index: Int) {
+        var child = index
+        var parent = (child - 1) / 2
+        
+        while child > 0 && comparer(nodes[child], nodes[parent]) {
+            nodes.swapAt(child, parent)
+            child = parent
+            parent = (child - 1) / 2
+        }
+    }
+
+    /// 삭제 시: 위에서 아래로 재배치 (Sift Down)
+    private mutating func siftDown(from index: Int) {
+        var parent = index
+        
+        while true {
+            let leftChild = parent * 2 + 1
+            let rightChild = parent * 2 + 2
+            var candidate = parent
+            
+            if leftChild < nodes.count && comparer(nodes[leftChild], nodes[candidate]) {
+                candidate = leftChild
+            }
+            
+            if rightChild < nodes.count && comparer(nodes[rightChild], nodes[candidate]) {
+                candidate = rightChild
+            }
+            
+            if candidate == parent { return }
+            
+            nodes.swapAt(parent, candidate)
+            parent = candidate
+        }
+    }
 }

@@ -7,37 +7,29 @@
 
 import Foundation
 
-struct PriorityQueue<T: Comparable> {
-    var heap: Heap<T>
+struct PriorityQueue<T> {
+    private var heap: Heap<T>
     
-    init(_ elements: [T] = [], _ sort: @escaping (T, T) -> Bool) {
-        heap = Heap(elements: elements, sortFunction: sort)
+    // 우선순위 결정 조건 (예: < 는 최소 힙, > 는 최대 힙)
+    init(order: @escaping (T, T) -> Bool) {
+        self.heap = Heap(comparer: order)
     }
     
-    var count : Int {
-        return heap.count
+    var isEmpty: Bool { heap.isEmpty }
+    var count: Int { heap.count }
+    
+    // 데이터 추가
+    mutating func enqueue(_ element: T) {
+        heap.insert(element)
     }
     
-    var isEmpty : Bool {
-        return heap.isEmpty
+    // 우선순위가 가장 높은 데이터 추출
+    mutating func dequeue() -> T? {
+        return heap.pop()
     }
     
-    func top () -> T? {
-        return heap.peek
+    // 확인만 하기
+    func peek() -> T? {
+        return heap.peek()
     }
-    
-    mutating func clear () {
-        while !heap.isEmpty {
-            _ = heap.remove()
-        }
-    }
-    
-    mutating func pop() -> T? {
-        return heap.remove()
-    }
-    
-    mutating func push(_ element: T) {
-        heap.insert(node: element)
-    }
-    
 }
