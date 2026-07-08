@@ -35,6 +35,7 @@
 		D077C78328AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift in Sources */ = {isa = PBXBuildFile; fileRef = D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */; };
 		D080A3EB2F91C3C100ED3E0B /* 841. Keys and Rooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = D080A3EA2F91C3C100ED3E0B /* 841. Keys and Rooms.swift */; };
 		D085CC442CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */; };
+		D08839CE2FFCB9CA00BD2253 /* 2542. Maximum Subsequence Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08839CD2FFCB9C800BD2253 /* 2542. Maximum Subsequence Score.swift */; };
 		D08F3AE62CBDE6A300FAA5AE /* 466. Count The Repetitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */; };
 		D08F3AEC2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */; };
 		D08F3AEE2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */; };
@@ -156,6 +157,7 @@
 		D077C78228AB2C1700FE81EA /* QuadTree+BaekJoon1992.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuadTree+BaekJoon1992.swift"; sourceTree = "<group>"; };
 		D080A3EA2F91C3C100ED3E0B /* 841. Keys and Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "841. Keys and Rooms.swift"; sourceTree = "<group>"; };
 		D085CC432CE6E47100EB804A /* 2844. Minimum Operations to Make a Special Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2844. Minimum Operations to Make a Special Number.swift"; sourceTree = "<group>"; };
+		D08839CD2FFCB9C800BD2253 /* 2542. Maximum Subsequence Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2542. Maximum Subsequence Score.swift"; sourceTree = "<group>"; };
 		D08F3AE52CBDE6A300FAA5AE /* 466. Count The Repetitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "466. Count The Repetitions.swift"; sourceTree = "<group>"; };
 		D08F3AEB2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2447. Number of Subarrays With GCD Equal to K.swift"; sourceTree = "<group>"; };
 		D08F3AED2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2712. Minimum Cost to Make All Characters Equal.swift"; sourceTree = "<group>"; };
@@ -521,6 +523,7 @@
 		D0DB061B2FB2A6BB000681DC /* Heap & Priority Queue */ = {
 			isa = PBXGroup;
 			children = (
+				D08839CD2FFCB9C800BD2253 /* 2542. Maximum Subsequence Score.swift */,
 				D0DB061C2FB2AF1D000681DC /* 215. Kth Largest Element in an Array.swift */,
 				D0BE6D4A2FFB2B4C002B21BB /* 2336. Smallest Number in Infinite Set.swift */,
 			);
@@ -785,6 +788,7 @@
 				D08F3AEC2CBF36CD00FAA5AE /* 2447. Number of Subarrays With GCD Equal to K.swift in Sources */,
 				D0FDC9B32FB14F12001B7426 /* 1926. Nearest Exit from Entrance in Maze.swift in Sources */,
 				FF765E8228D5B324003C06DA /* MakeTwoQueueSumEqual+KI2022.swift in Sources */,
+				D08839CE2FFCB9CA00BD2253 /* 2542. Maximum Subsequence Score.swift in Sources */,
 				D077B5942F67901300732511 /* 11. Container With Most Water.swift in Sources */,
 				D01D04D42CF4034400A938A8 /* 781. Rabbits in Forest.swift in Sources */,
 				D09C044D2DF8F68D00BDC2AE /* TopInterviewQuestions.swift in Sources */,
