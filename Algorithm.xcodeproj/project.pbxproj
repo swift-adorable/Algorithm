@@ -46,6 +46,7 @@
 		D09F7E182F5FA6C4005EC21A /* 1768. Merge Strings Alternately.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09F7E172F5FA6C4005EC21A /* 1768. Merge Strings Alternately.swift */; };
 		D09F7E1A2F5FA721005EC21A /* LeetCode75.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09F7E192F5FA721005EC21A /* LeetCode75.swift */; };
 		D09F7E1C2F5FAB99005EC21A /* 1071. Greatest Common Divisor of Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09F7E1B2F5FAB99005EC21A /* 1071. Greatest Common Divisor of Strings.swift */; };
+		D0A1A2CC2FFF1C6D00FBD245 /* 2462. Total Cost to Hire K Workers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A1A2CB2FFF1C6B00FBD245 /* 2462. Total Cost to Hire K Workers.swift */; };
 		D0A667BB2CED55A90012CF78 /* 3227. Vowels Game in a String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A667BA2CED55A90012CF78 /* 3227. Vowels Game in a String.swift */; };
 		D0A77CCF2F871B81000E19D4 /* 437. Path Sum III.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A77CCE2F871B81000E19D4 /* 437. Path Sum III.swift */; };
 		D0A77CD12F87317D000E19D4 /* 1372. Longest ZigZag Path in a Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A77CD02F87317D000E19D4 /* 1372. Longest ZigZag Path in a Binary Tree.swift */; };
@@ -171,6 +172,7 @@
 		D09F7E262F5FAC81005EC21A /* Reference vs Copy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Reference vs Copy.md"; sourceTree = "<group>"; };
 		D09F7E272F5FAC81005EC21A /* Two Pointer vs Sliding Window.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Two Pointer vs Sliding Window.md"; sourceTree = "<group>"; };
 		D09F7E2A2F5FAC96005EC21A /* Greatest Common Divisor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Greatest Common Divisor.md"; sourceTree = "<group>"; };
+		D0A1A2CB2FFF1C6B00FBD245 /* 2462. Total Cost to Hire K Workers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2462. Total Cost to Hire K Workers.swift"; sourceTree = "<group>"; };
 		D0A667BA2CED55A90012CF78 /* 3227. Vowels Game in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3227. Vowels Game in a String.swift"; sourceTree = "<group>"; };
 		D0A77CCE2F871B81000E19D4 /* 437. Path Sum III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "437. Path Sum III.swift"; sourceTree = "<group>"; };
 		D0A77CD02F87317D000E19D4 /* 1372. Longest ZigZag Path in a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1372. Longest ZigZag Path in a Binary Tree.swift"; sourceTree = "<group>"; };
@@ -523,6 +525,7 @@
 		D0DB061B2FB2A6BB000681DC /* Heap & Priority Queue */ = {
 			isa = PBXGroup;
 			children = (
+				D0A1A2CB2FFF1C6B00FBD245 /* 2462. Total Cost to Hire K Workers.swift */,
 				D08839CD2FFCB9C800BD2253 /* 2542. Maximum Subsequence Score.swift */,
 				D0DB061C2FB2AF1D000681DC /* 215. Kth Largest Element in an Array.swift */,
 				D0BE6D4A2FFB2B4C002B21BB /* 2336. Smallest Number in Infinite Set.swift */,
@@ -723,6 +726,7 @@
 				D0C925422F7212B600FC59D1 /* 735. Asteroid Collision.swift in Sources */,
 				D0C8E1152F860D0B0083DB61 /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				D0B0C0742CEAB9D400A9B91C /* 693. Binary Number with Alternating Bits.swift in Sources */,
+				D0A1A2CC2FFF1C6D00FBD245 /* 2462. Total Cost to Hire K Workers.swift in Sources */,
 				D08F3AEE2CC07A9700FAA5AE /* 2712. Minimum Cost to Make All Characters Equal.swift in Sources */,
 				D0A77CD12F87317D000E19D4 /* 1372. Longest ZigZag Path in a Binary Tree.swift in Sources */,
 				D0BA57642F7B47DC001375E1 /* 2095. Delete the Middle Node of a Linked List.swift in Sources */,

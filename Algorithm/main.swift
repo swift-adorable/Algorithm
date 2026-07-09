@@ -6,6 +6,6 @@
 //
 
 import Foundation
-let test = LeetCode75.MaximumSubsequenceScore()
-let result = test.maxScore([3,2,1,5], [2,1,3,4], 3)
+let test = LeetCode75.TotalCostToHireWorkers()
+let result = test.totalCost([17,12,10,2,7,2,11,20,8], 3, 4)
 print(result)

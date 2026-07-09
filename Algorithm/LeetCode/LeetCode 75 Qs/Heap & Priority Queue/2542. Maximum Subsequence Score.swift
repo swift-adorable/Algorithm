@@ -67,7 +67,7 @@ extension LeetCode75 {
              
              if heap.count == k {
                  let newMax = currentSum * pair[i].1
-                 if max < newMax && heap.count == k {
+                 if max < newMax {
                      max = newMax
                  }
              }
